@@ -94,6 +94,9 @@
         "title_mMqq6L",
         "quick_buy_ikndnN"
       ],
+      "custom_css": [
+        "h2{font-family: PP Acma; font-weight: 600;}"
+      ],
       "settings": {
         "heading": "Our Top Sellers",
         "subheading": "",
@@ -134,7 +137,8 @@
         "1655121489da0fd0f2-2"
       ],
       "custom_css": [
-        "figure img {object-fit: contain;}"
+        "figure img {object-fit: contain;}",
+        "h2 {font-family: PP Acma; font-weight: 600;}"
       ],
       "settings": {
         "heading": "Mega Bundles",
@@ -280,7 +284,7 @@
         "card_XQ7JBU"
       ],
       "custom_css": [
-        "h2{font-family: PP Acma; font-weight: 600;}"
+        "h2 {font-family: PP Acma; font-weight: 600;}"
       ],
       "settings": {
         "heading": "For Occasions",
