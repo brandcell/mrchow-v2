@@ -83,8 +83,8 @@
           "settings": {
           }
         },
-        "quick_buy_gigHGd": {
-          "type": "quick_buy",
+        "icons_n9nEbG": {
+          "type": "icons",
           "settings": {
           }
         }
@@ -92,7 +92,10 @@
       "block_order": [
         "price_cQBanU",
         "title_mMqq6L",
-        "quick_buy_gigHGd"
+        "icons_n9nEbG"
+      ],
+      "custom_css": [
+        "h2 {font-family: PP Acma; font-weight: 600;}"
       ],
       "settings": {
         "heading": "Our Top Sellers",
