@@ -639,48 +639,6 @@
         "seo_h_tag": "h2"
       }
     },
-    "165650871288cb3c80": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "1656508712d3848f85-0": {
-          "type": "image",
-          "settings": {
-            "caption": "",
-            "title": "Bring the best spirits",
-            "subtitle": "Bartending anywhere you need it",
-            "link": "",
-            "open_in_new_window": false,
-            "button_label": "Show more",
-            "color_background_main": "#000000",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": true,
-            "color_hide_shadow": false,
-            "seo_h_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "1656508712d3848f85-0"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "layout": "grid-1",
-        "height": "large",
-        "alignment": "horizontal-center align-content--vertical-middle",
-        "width": "60%",
-        "caption_size": "regular",
-        "title_size": "h1",
-        "subtitle_size": "regular",
-        "button_size": "large",
-        "button_style": "outline",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
     "16551127939786a43a": {
       "type": "blog-posts",
       "blocks": {
@@ -872,7 +830,6 @@
     "16546982542e923b5a",
     "165407625224b5d2af",
     "165597098555c514a4",
-    "165650871288cb3c80",
     "16551127939786a43a",
     "16553621956de397b6",
     "1657094048f07fb2a2",
