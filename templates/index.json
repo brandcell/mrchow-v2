@@ -122,11 +122,6 @@
           "settings": {
           }
         },
-        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede": {
-          "type": "rating",
-          "settings": {
-          }
-        },
         "1655121489da0fd0f2-2": {
           "type": "quick_buy",
           "settings": {
@@ -136,7 +131,6 @@
       "block_order": [
         "1655121489da0fd0f2-0",
         "1655121489da0fd0f2-1",
-        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede",
         "1655121489da0fd0f2-2"
       ],
       "custom_css": [
@@ -148,7 +142,8 @@
         "section_heading_layout": "section-heading--left",
         "image": "shopify:\/\/shop_images\/megabundle.png",
         "product_list": [
-          "monthly-mega-bundle"
+          "aberlour-12-years-double-cask-scotch-whisky-700ml",
+          "aberlour-18-years-speyside-single-malt-700ml"
         ],
         "color_background_main": "#ee3535",
         "color_borders_main": "rgba(0,0,0,0)",
