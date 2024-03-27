@@ -94,9 +94,6 @@
         "title_mMqq6L",
         "quick_buy_ikndnN"
       ],
-      "custom_css": [
-        "h2 {font-family: PP Acma; font-weight: 600;}"
-      ],
       "settings": {
         "heading": "Our Top Sellers",
         "subheading": "",
@@ -112,93 +109,51 @@
         "seo_h_tag": "h2"
       }
     },
-    "eb96683a-a12c-46d8-aa53-825fcba9eaa0": {
-      "type": "featured-collection",
+    "1655121489db318f96": {
+      "type": "shop-the-look",
       "blocks": {
-        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-price-1": {
+        "1655121489da0fd0f2-0": {
           "type": "price",
           "settings": {
           }
         },
-        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-title-1": {
+        "1655121489da0fd0f2-1": {
           "type": "title",
           "settings": {
           }
         },
-        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-quick_buy-1": {
-          "type": "quick_buy",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-price-1",
-        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-title-1",
-        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-quick_buy-1"
-      ],
-      "settings": {
-        "heading": "Featured Deals",
-        "subheading": "Showcase your best products",
-        "show_view_all": false,
-        "section_heading_layout": "section-heading--left",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
-        "products_number": 9,
-        "collection": "mega-bundle",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "blocks": {
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "2fe5312e-e69f-45d1-bac2-bcdf636d2cf0": {
+        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede": {
           "type": "rating",
           "settings": {
           }
         },
-        "quick_buy": {
+        "1655121489da0fd0f2-2": {
           "type": "quick_buy",
-          "settings": {
-          }
-        },
-        "0732fb3a-f464-4724-9427-62214bde5409": {
-          "type": "local_availability",
           "settings": {
           }
         }
       },
       "block_order": [
-        "price",
-        "title",
-        "2fe5312e-e69f-45d1-bac2-bcdf636d2cf0",
-        "quick_buy",
-        "0732fb3a-f464-4724-9427-62214bde5409"
+        "1655121489da0fd0f2-0",
+        "1655121489da0fd0f2-1",
+        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede",
+        "1655121489da0fd0f2-2"
+      ],
+      "custom_css": [
+        "figure img {object-fit: contain;}"
       ],
       "settings": {
-        "heading": "Best Sellers",
+        "heading": "Mega Bundles",
         "subheading": "",
-        "show_view_all": true,
         "section_heading_layout": "section-heading--left",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
-        "products_number": 8,
-        "collection": "gin",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
+        "image": "shopify:\/\/shop_images\/megabundle.png",
+        "product_list": [
+          "monthly-mega-bundle"
+        ],
+        "color_background_main": "#ee3535",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": false,
         "seo_h_tag": "h2"
       }
     },
@@ -300,54 +255,6 @@
         "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "1655121489db318f96": {
-      "type": "shop-the-look",
-      "blocks": {
-        "1655121489da0fd0f2-0": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1655121489da0fd0f2-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede": {
-          "type": "rating",
-          "settings": {
-          }
-        },
-        "1655121489da0fd0f2-2": {
-          "type": "quick_buy",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1655121489da0fd0f2-0",
-        "1655121489da0fd0f2-1",
-        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede",
-        "1655121489da0fd0f2-2"
-      ],
-      "custom_css": [
-        "figure img {object-fit: contain;}"
-      ],
-      "settings": {
-        "heading": "Mega Bundles",
-        "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "image": "shopify:\/\/shop_images\/megabundle.png",
-        "product_list": [
-          "monthly-mega-bundle"
-        ],
-        "color_background_main": "#ee3535",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true,
-        "color_hide_shadow": false,
         "seo_h_tag": "h2"
       }
     },
@@ -897,11 +804,9 @@
   "order": [
     "1653646142d6a7c886",
     "featured_collection_BFh64V",
-    "eb96683a-a12c-46d8-aa53-825fcba9eaa0",
-    "featured-collection",
+    "1655121489db318f96",
     "1654161920efe5f084",
     "16551212489c663a1e",
-    "1655121489db318f96",
     "870bf8e4-5d5c-4657-bdb0-d4e03f363b85",
     "16551304148266b5a5",
     "16551074833cdf378e",
