@@ -147,7 +147,10 @@
         "image": "shopify:\/\/shop_images\/megabundle.png",
         "product_list": [
           "aberlour-12-years-double-cask-scotch-whisky-700ml",
-          "aberlour-18-years-speyside-single-malt-700ml"
+          "aberlour-18-years-speyside-single-malt-700ml",
+          "aberlour-a-bunadh-alba-cask-strength-batch-005-700ml",
+          "aberlour-a-bunadh-alba-cask-strength-batch-007-700ml",
+          "aberlour-a-bunadh-batch-75-cask-strength-whisky-700ml"
         ],
         "color_background_main": "#ee3535",
         "color_borders_main": "rgba(0,0,0,0)",
