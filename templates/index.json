@@ -204,8 +204,11 @@
         "1654161920f21316cf-1",
         "1654161920f21316cf-2"
       ],
+      "custom_css": [
+        "h2 {font-family: PP Acma; font-weight: 600;}"
+      ],
       "settings": {
-        "heading": "What We Offer",
+        "heading": "Why Choose Mr Chow",
         "subheading": "",
         "section_heading_layout": "section-heading--center",
         "style": "slider",
