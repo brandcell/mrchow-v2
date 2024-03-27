@@ -213,40 +213,87 @@
         "seo_h_tag": "h2"
       }
     },
-    "16551212489c663a1e": {
-      "type": "featured-collection",
+    "promotion_cards_rxHM9y": {
+      "type": "promotion-cards",
       "blocks": {
-        "1655121248aee0f086-0": {
-          "type": "price",
+        "card_aX6ewA": {
+          "type": "card",
           "settings": {
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
           }
         },
-        "1655121248aee0f086-1": {
-          "type": "title",
+        "card_JQUAey": {
+          "type": "card",
           "settings": {
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
           }
         },
-        "1655121248aee0f086-2": {
-          "type": "quick_buy",
-          "disabled": true,
+        "card_XQ7JBU": {
+          "type": "card",
           "settings": {
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
           }
         }
       },
       "block_order": [
-        "1655121248aee0f086-0",
-        "1655121248aee0f086-1",
-        "1655121248aee0f086-2"
+        "card_aX6ewA",
+        "card_JQUAey",
+        "card_XQ7JBU"
+      ],
+      "custom_css": [
+        "h2{font-family: PP Acma; font-weight: 600;}"
       ],
       "settings": {
-        "heading": "Promotions",
+        "heading": "For Occasions",
         "subheading": "",
-        "show_view_all": true,
         "section_heading_layout": "section-heading--left",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
-        "products_number": 8,
-        "collection": "promotions",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "1",
+        "text_alignment": "text-align--center",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
         "section_background_color": "rgba(0,0,0,0)",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
@@ -801,7 +848,7 @@
     "featured_collection_BFh64V",
     "1655121489db318f96",
     "1654161920efe5f084",
-    "16551212489c663a1e",
+    "promotion_cards_rxHM9y",
     "870bf8e4-5d5c-4657-bdb0-d4e03f363b85",
     "16551304148266b5a5",
     "16551074833cdf378e",
