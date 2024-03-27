@@ -1,24 +1,23 @@
 <div class="product-price">
-
   {%- if product_price_varies -%}
-
     <span class="product-price--original" data-js-product-price-original>
       {%- liquid
         assign price = target.price | money
         if target.compare_at_price > target.price or target.compare_at_price_varies
-          echo 'products.grid.on_sale_from_html' | t: price: price 
+          echo 'products.grid.on_sale_from_html' | t: price: price
         else
-          echo 'products.grid.from_text_html' | t: price: price 
+          echo 'products.grid.from_text_html' | t: price: price
         endif
       -%}
     </span>
 
   {%- else -%}
+    <span class="product-price--original {{ text_size_class }} text-{#EE3535} data-js-product-price-original>
+      {{- target.price | money -}}
+    </span>
 
-    <span class="product-price--original {{ text_size_class }}" data-js-product-price-original>{{ target.price | money }}</span>
-    
     <del class="product-price--compare" data-js-product-price-compare>
-      {%- liquid 
+      {%- liquid
         if target.compare_at_price > target.price
           echo target.compare_at_price | money | prepend: '<span>' | append: '</span>'
           if show_saving
@@ -28,7 +27,6 @@
         endif
       -%}
     </del>
-
   {%- endif -%}
 
   <span class="product-price--unit text-size--regular" data-js-product-price-unit>
@@ -43,5 +41,4 @@
       endif
     -%}
   </span>
-
 </div>
