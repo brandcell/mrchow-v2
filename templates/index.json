@@ -707,6 +707,9 @@
         "165511279388d6ad87-1",
         "6d7d92cc-64fe-4f89-9974-bb98f18308a0"
       ],
+      "custom_css": [
+        "h2 {font-family: PP Acma; font-weight: 600;}"
+      ],
       "settings": {
         "title": "Mr Chow's Drink Diary",
         "subheading": "",
