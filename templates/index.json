@@ -95,7 +95,7 @@
         "quick_buy_ikndnN"
       ],
       "custom_css": [
-        "h2{font-family: PP Acma; font-weight: 600;}"
+        "h2 {font-family: PP Acma; font-weight: 600;}"
       ],
       "settings": {
         "heading": "Our Top Sellers",
@@ -223,9 +223,10 @@
         "card_aX6ewA": {
           "type": "card",
           "settings": {
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "Write about it",
+            "image": "shopify:\/\/shop_images\/parties.webp",
+            "caption": "To Celebrate",
+            "title": "Parties",
+            "subtitle": "",
             "link": "",
             "open_in_new_window": false,
             "button_label": "Show more",
@@ -242,9 +243,10 @@
         "card_JQUAey": {
           "type": "card",
           "settings": {
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "Write about it",
+            "image": "shopify:\/\/shop_images\/business.webp",
+            "caption": "To Seal the Deal",
+            "title": "Business",
+            "subtitle": "",
             "link": "",
             "open_in_new_window": false,
             "button_label": "Show more",
@@ -261,9 +263,10 @@
         "card_XQ7JBU": {
           "type": "card",
           "settings": {
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "Write about it",
+            "image": "shopify:\/\/shop_images\/leisure.webp",
+            "caption": "Relax and Chill",
+            "title": "Leisure",
+            "subtitle": "",
             "link": "",
             "open_in_new_window": false,
             "button_label": "Show more",
