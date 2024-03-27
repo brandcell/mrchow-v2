@@ -178,6 +178,7 @@
     "product_card_button_style": "solid",
     "product_card_color_button_main": "#ff4c0a",
     "product_card_badge_sale_type": "percentage",
+    "product_card_badge_sale_color": "#ee3535",
     "product_icon_1_image": "",
     "product_icon_1_label": "",
     "cart_action": "no-overlay",
