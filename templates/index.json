@@ -230,8 +230,8 @@
             "link": "",
             "open_in_new_window": false,
             "button_label": "Show more",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_background_main": "#000000",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
@@ -250,8 +250,8 @@
             "link": "",
             "open_in_new_window": false,
             "button_label": "Show more",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_background_main": "#000000",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
@@ -270,8 +270,8 @@
             "link": "",
             "open_in_new_window": false,
             "button_label": "Show more",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
+            "color_background_main": "#000000",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "rgba(0,0,0,0)",
             "color_shadow_main": "rgba(0,0,0,0)",
@@ -287,7 +287,8 @@
         "card_XQ7JBU"
       ],
       "custom_css": [
-        "h2 {font-family: PP Acma; font-weight: 600;}"
+        "h2 {font-family: PP Acma; font-weight: 600;}",
+        "h3 {font-family: PP Acma; font-weight: 600;}"
       ],
       "settings": {
         "heading": "For Occasions",
