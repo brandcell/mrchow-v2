@@ -75,18 +75,15 @@
       "blocks": {
         "price_cQBanU": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "title_mMqq6L": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "quick_buy_ikndnN": {
           "type": "quick_buy",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -117,18 +114,15 @@
       "blocks": {
         "1655121489da0fd0f2-0": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "1655121489da0fd0f2-1": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "1655121489da0fd0f2-2": {
           "type": "quick_buy",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -319,18 +313,15 @@
       "blocks": {
         "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-price-1": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-title-1": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-quick_buy-1": {
           "type": "quick_buy",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -346,9 +337,7 @@
         "subheading": "",
         "section_heading_layout": "section-heading--left",
         "image": "shopify:\/\/shop_images\/flashsale-title.png",
-        "product_list": [
-
-        ],
+        "product_list": [],
         "color_background_main": "#ffcf0a",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": false,
@@ -474,8 +463,7 @@
       "blocks": {
         "16546982534861ca3b-1": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "16546982534861ca3b-0": {
           "type": "title",
@@ -485,8 +473,7 @@
         },
         "16546982534861ca3b-4": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "16546982534861ca3b-2": {
           "type": "variant_picker",
@@ -652,8 +639,7 @@
         },
         "165511279388d6ad87-1": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "6d7d92cc-64fe-4f89-9974-bb98f18308a0": {
           "type": "summary",
@@ -775,6 +761,9 @@
         "seo_h_tag": "h2"
       }
     },
+    "taste-profile": {
+      "type": "taste-profile"
+    },
     "6c086dba-1c80-4675-a229-94f9ff83be0c": {
       "type": "apps",
       "blocks": {
@@ -834,6 +823,7 @@
     "16553621956de397b6",
     "1657094048f07fb2a2",
     "1655112847aaa4cc50",
+    "taste-profile",
     "6c086dba-1c80-4675-a229-94f9ff83be0c",
     "122971da-0f19-4b4c-8e98-163fd3065536"
   ]
