@@ -1,0 +1,90 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "center": false
+      }
+    },
+    "145e7507-4f95-4bba-8331-03f6f472dbe0": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "template--17201873453271__145e7507-4f95-4bba-8331-03f6f472dbe0-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "vertical_offset_desktop": 50,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        }
+      },
+      "block_order": [
+        "template--17201873453271__145e7507-4f95-4bba-8331-03f6f472dbe0-product-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "color_text": "#000000",
+        "color_background": "#ffffff",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h3"
+      }
+    },
+    "09fbf16c-ebf4-4867-bb50-97e51a4cc8d8": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "table,th,tr,td {border: solid 1px black; padding: 8px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<table class=\"table table-bordered text-left\">\n                <thead>\n                    <tr>\n                       <th colspan=\"4\" class=\"text-center\">Free delivery for order over RM450 within Peninsular Malaysia<\/th> \n                    <\/tr>\n                    <tr>\n                        <th>Delivery Option<\/th>\n                        <th>Location<\/th>\n                        <th>Charges Applicable<\/th>\n                        <th>Feature Delivery<\/th>\n                    <\/tr>\n                <\/thead>\n                <tbody>\n                    <tr>\n                        <td rowspan=\"2\">Standard Delivery<\/td>\n                        <td>Within Klang Valley<\/td>\n                        <td><strong>RM20 Flat Rate<\/strong><\/td>\n                        <td rowspan=\"2\">Arrival within 2-5 working days. (Tracking number will be provided via WhatsApp once posted)<\/td>\n                    <\/tr>\n                    <tr>\n                        <td>Beyond Klang Valley<\/td>\n                        <td><strong>RM30 Flat Rate<\/strong><\/td>\n                    <\/tr>\n                    <tr>\n                        <td>Express Delivery<\/td>\n                        <td>Within Klang Valley<\/td>\n                        <td><strong>RM40 Flat Rate<\/strong><\/td>\n                        <td>Same-Day Delivery Order must be placed before 4pm, arrival by Monday to Sunday 11am - 6pm. (Please notify customer service and we will proceed accordingly)<\/td>\n                    <\/tr>\n                <\/tbody>\n            <\/table>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c": {
+      "type": "rich-text",
+      "blocks": {
+        "0a483484-22f3-402b-8fe8-19c3b8f5753b": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Delays in Delivery<\/h5><p>In case of any unexpected delays due to bad weather, floods, or events out of our control, our customer service team will strive to communicate promptly to all affected customers.<\/p><h5>Order Status<\/h5><p>Our Customer Service Representative will provide tracking code via WhatsApp.<\/p><h5>Away During Delivery<\/h5><p>If you or no one is available to receive the order(s), we will be in touch to schedule a second delivery. Additional delivery charges may incur.<\/p><h5>Changing Delivery Address<\/h5><p>If you have already checked out and would like to change the delivery address, contact our customer service team at <a href=\"https:\/\/wa.me\/60169562840\">+6016 9562 840<\/a> (Joyce) or email <a href=\"mailto:support@mrchowliquorstore.com\">support@mrchowliquorstore.com<\/a> as soon as possible; we will try our best to rearrange the scheduled delivery.<\/p><p>If the rearrangement is unsuccessful, it will be considered a new delivery. We will inform you of any additional delivery costs that might be incurred, and your order will be redelivered pending your approval.<\/p><h5>Restricted Areas<\/h5><p>We do not deliver to and within the vicinity of the following areas:<\/p><ul><li>Hospitals<\/li><li>Kuala Lumpur International Airport (KLIA) 1 and 2<\/li><li>Government buildings<\/li><\/ul><h5>Delivery Coverage<\/h5><p>We currently do not deliver to East Malaysia and countries outside of Malaysia.<\/p><h5>What if my orders are incomplete, damaged or lost in delivery?<\/h5><p>Please get in touch with our customer service team at <a href=\"https:\/\/wa.me\/60169562840\">+6016 9562 840<\/a> (Joyce) or email <a href=\"mailto:support@mrchowliquorstore.com\">support@mrchowliquorstore.com<\/a>; we will arrange for a replacement upon verifying your claims.<\/p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "0a483484-22f3-402b-8fe8-19c3b8f5753b"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "145e7507-4f95-4bba-8331-03f6f472dbe0",
+    "09fbf16c-ebf4-4867-bb50-97e51a4cc8d8",
+    "09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c"
+  ]
+}

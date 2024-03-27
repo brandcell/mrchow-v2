@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+            "text_size": "text-size--regular"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "empty_space_1": {
+          "type": "space",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "empty_space_2": {
+          "type": "space",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "empty_space_3": {
+          "type": "space",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        },
+        "0d8f779e-8df4-43eb-918f-7eacba66ffc0": {
+          "type": "progress-dots",
+          "settings": {
+            "title": "Complexity",
+            "caption1": "Mild",
+            "caption2": "Complex",
+            "dot_icon": "circle-ghost",
+            "dot_size": 14,
+            "total_dots": 10,
+            "active_dots": 3,
+            "dynamic_content": "",
+            "icon_color_default": "rgba(0,0,0,0)",
+            "icon_color_active": "rgba(0,0,0,0)"
+          }
+        },
+        "00aeb3aa-c241-48b2-8bd7-ba19f2af5cb9": {
+          "type": "progress-slider",
+          "settings": {
+            "title": "",
+            "caption1": "Delicate",
+            "caption2": "Rich",
+            "slider_height": 8,
+            "slider_width": 250,
+            "slider_value": 50,
+            "dynamic_content": "100",
+            "slider_color_default": "rgba(0,0,0,0)",
+            "slider_color_active": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "empty_space_1",
+        "buy_buttons",
+        "empty_space_2",
+        "description",
+        "empty_space_3",
+        "share",
+        "0d8f779e-8df4-43eb-918f-7eacba66ffc0",
+        "00aeb3aa-c241-48b2-8bd7-ba19f2af5cb9"
+      ],
+      "settings": {
+        "gallery_style": "slider",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "47b51ecb-eac8-4cad-bd3e-a011ca28f3fc": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".taste-profile-header {font-family: \"PP Acma\"; font-weight: 500; text-align: center;}",
+        ".tag-container {display: flex; justify-content: space-evenly;}",
+        ".tag-wrapper {border: 1px solid red; padding: 10px; background: palevioletred; border-radius: 45px;}",
+        "p {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<h3 class=\"taste-profile-header\"> Taste Profiles <\/h3>\n\n<div class=\"tag-container\">\n\n{% for taste in product.metafields.filters.taste.value %} \n\n<div class=\"tag-wrapper\">\n<p>{{ taste }}<\/p>\n<\/div>\n\n \n{% endfor %} \n\n<\/div>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "dc2a2458-a4d4-470a-b499-5a491fddbca2": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".food-pairings-header {font-family: \"PP Acma\"; font-weight: 500; text-align: center;}",
+        ".tag-container {display: flex; justify-content: space-evenly;}",
+        ".tag-wrapper {border: 1px solid red; padding: 10px; background: coral; color: white; border-radius: 45px; align-self: start;}",
+        "p {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<h3 class=\"food-pairings-header\"> Food Pairings <\/h3>\n\n<div class=\"tag-container\">\n\n{% for food in product.metafields.custom.food_pairings.value %} \n\n<div class=\"tag-wrapper\">\n<p>{{ food }}<\/p>\n<\/div>\n\n \n{% endfor %} \n\n<\/div>",
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "quick_buy"
+      ],
+      "settings": {
+        "heading": "You may also like",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    },
+    "95d49e3c-da4e-4477-ad5c-240df6653576": {
+      "type": "apps",
+      "blocks": {
+        "63486327-c3a2-4d81-a14a-f85537d69086": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "disabled": true,
+          "settings": {
+            "widgetId": "productpage-048573",
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "63486327-c3a2-4d81-a14a-f85537d69086"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    },
+    "1706514847fd68f821": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_AFG4jL": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_AFG4jL"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "47b51ecb-eac8-4cad-bd3e-a011ca28f3fc",
+    "dc2a2458-a4d4-470a-b499-5a491fddbca2",
+    "product-recommendations",
+    "95d49e3c-da4e-4477-ad5c-240df6653576",
+    "1706514847fd68f821"
+  ]
+}

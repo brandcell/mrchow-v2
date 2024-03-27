@@ -1,0 +1,71 @@
+{
+  "type": "footer",
+  "name": "t:sections.refactor_words.labels.footer_group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Mr Chow",
+            "size": "h4",
+            "content": "<p>Value alcohol, anytime, anywhere<\/p>",
+            "show_social_icons": true,
+            "enable_follow_on_shop": true
+          }
+        },
+        "menu-2": {
+          "type": "menu",
+          "settings": {
+            "title": "Categories",
+            "menu": "footer-menu-product-collections",
+            "open_in_new_window": false
+          }
+        },
+        "e20388d7-43ac-4a42-b27b-347dd47550f4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Contact information",
+            "size": "h4",
+            "content": "<p>Write a short statement about your brand.<\/p>",
+            "show_social_icons": true,
+            "enable_follow_on_shop": true
+          }
+        },
+        "menu-1": {
+          "type": "menu",
+          "settings": {
+            "title": "Information",
+            "menu": "footer",
+            "open_in_new_window": false
+          }
+        },
+        "3b67941e-5f7c-405a-93b1-31177f1c7103": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter"
+          }
+        }
+      },
+      "block_order": [
+        "text-1",
+        "menu-2",
+        "e20388d7-43ac-4a42-b27b-347dd47550f4",
+        "menu-1",
+        "3b67941e-5f7c-405a-93b1-31177f1c7103"
+      ],
+      "settings": {
+        "layout": "grid-4 grid-portable-2 grid-lap-1",
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "remove_margin": false,
+        "seo_h_tag": "h4"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "quick_buy"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "184d8601-8a35-4473-bbea-054e59dab51a": {
+      "type": "apps",
+      "blocks": {
+        "07002911-5662-430e-a0f3-e194a40dab19": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/product-filter\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "07002911-5662-430e-a0f3-e194a40dab19"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "184d8601-8a35-4473-bbea-054e59dab51a",
+    "main"
+  ],
+  "wrapper": ".boost-sd__product-filter-fallback"
+}

@@ -1,0 +1,102 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "quick_buy"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 24,
+        "enable_filtering": true,
+        "enable_sorting": true
+      }
+    },
+    "d8a034a4-a9f9-4e0a-a0b8-576eea9a582e": {
+      "type": "apps",
+      "blocks": {
+        "cdfdc00a-d0e6-4b9f-924e-196fe8429662": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/product-filter\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "cdfdc00a-d0e6-4b9f-924e-196fe8429662"
+      ],
+      "settings": {
+      }
+    },
+    "ef3aec3d-883b-4939-b3db-dc03c864147e": {
+      "type": "apps",
+      "blocks": {
+        "3fe08aed-d290-4a75-af4e-185f6422f5c2": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "collectionpage-130470"
+          }
+        }
+      },
+      "block_order": [
+        "3fe08aed-d290-4a75-af4e-185f6422f5c2"
+      ],
+      "settings": {
+      }
+    },
+    "0e6eb7cd-eb07-42dc-bb5a-8b6827ad8841": {
+      "type": "apps",
+      "blocks": {
+        "a2fab9ee-89fa-46c8-84a3-a1b43d424291": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "collectionpage-180080"
+          }
+        }
+      },
+      "block_order": [
+        "a2fab9ee-89fa-46c8-84a3-a1b43d424291"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "d8a034a4-a9f9-4e0a-a0b8-576eea9a582e",
+    "banner",
+    "product-grid",
+    "ef3aec3d-883b-4939-b3db-dc03c864147e",
+    "0e6eb7cd-eb07-42dc-bb5a-8b6827ad8841"
+  ],
+  "wrapper": ".boost-sd__product-filter-fallback"
+}

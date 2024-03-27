@@ -1,0 +1,158 @@
+{
+  "type": "header",
+  "name": "t:sections.refactor_words.labels.header_group",
+  "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {
+            "text": "Free Delivery for orders above RM450!",
+            "link": "",
+            "target": false
+          }
+        }
+      },
+      "block_order": [
+        "content"
+      ],
+      "settings": {
+        "visibility": "all",
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_social_icons": true,
+        "bar_bgcolor": "#ee3535",
+        "bar_txtcolor": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "store": {
+          "type": "store-selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "info": {
+          "type": "info",
+          "settings": {
+            "caption": "Same Day Delivery Available!",
+            "title": "More info on delivery",
+            "link": "",
+            "link_type": "_self",
+            "icon": "delivery"
+          }
+        },
+        "4dfe22c2-ea82-4082-baee-45eba08d1ac8": {
+          "type": "mega-menu",
+          "settings": {
+            "menu_handle": "spirits",
+            "show_promotion_block": true,
+            "promotion_title": "Mr Chow's Pick Of The Week",
+            "promotion_title_size": "text-size--xlarge",
+            "promotion_subtitle": "",
+            "promotion_subtitle_size": "text-size--regular",
+            "promotion_button_label": "",
+            "promotion_button_size": "regular",
+            "promotion_button_link": "shopify:\/\/collections",
+            "promotion_color_txt": "#000000",
+            "promotion_color_bg": "#f3f3f3",
+            "promotion_image": "shopify:\/\/shop_images\/LaphroaigSelectCaskIslaySingleMalt.jpg"
+          }
+        },
+        "aeb61b6a-898f-4f73-b674-ea23639bc0aa": {
+          "type": "mega-menu",
+          "settings": {
+            "menu_handle": "wine",
+            "show_promotion_block": true,
+            "promotion_title": "Great promotion",
+            "promotion_title_size": "text-size--xlarge",
+            "promotion_subtitle": "Write all about it",
+            "promotion_subtitle_size": "text-size--regular",
+            "promotion_button_label": "",
+            "promotion_button_size": "regular",
+            "promotion_button_link": "shopify:\/\/collections",
+            "promotion_color_txt": "#000000",
+            "promotion_color_bg": "#f3f3f3",
+            "promotion_image": "shopify:\/\/shop_images\/LaphroaigSelectCaskIslaySingleMalt.jpg"
+          }
+        },
+        "df308683-0cc4-447d-8d3c-d7986a940848": {
+          "type": "mega-menu",
+          "settings": {
+            "menu_handle": "discover",
+            "show_promotion_block": false,
+            "promotion_title": "Great promotion",
+            "promotion_title_size": "text-size--xlarge",
+            "promotion_subtitle": "Write all about it",
+            "promotion_subtitle_size": "text-size--regular",
+            "promotion_button_label": "",
+            "promotion_button_size": "regular",
+            "promotion_button_link": "",
+            "promotion_color_txt": "#000000",
+            "promotion_color_bg": "#f3f3f3"
+          }
+        },
+        "a4d69399-3bb5-4564-9468-58bdebd719bc": {
+          "type": "mega-menu",
+          "settings": {
+            "menu_handle": "sale",
+            "show_promotion_block": false,
+            "promotion_title": "Great promotion",
+            "promotion_title_size": "text-size--xlarge",
+            "promotion_subtitle": "Write all about it",
+            "promotion_subtitle_size": "text-size--regular",
+            "promotion_button_label": "",
+            "promotion_button_size": "regular",
+            "promotion_button_link": "",
+            "promotion_color_txt": "#000000",
+            "promotion_color_bg": "#f3f3f3"
+          }
+        },
+        "dafcdf5d-7880-46e6-b71a-f195c2ff7146": {
+          "type": "mega-menu",
+          "settings": {
+            "menu_handle": "event-planning",
+            "show_promotion_block": true,
+            "promotion_title": "Great promotion",
+            "promotion_title_size": "text-size--xlarge",
+            "promotion_subtitle": "Write all about it",
+            "promotion_subtitle_size": "text-size--regular",
+            "promotion_button_label": "",
+            "promotion_button_size": "regular",
+            "promotion_button_link": "",
+            "promotion_color_txt": "#000000",
+            "promotion_color_bg": "#f3f3f3"
+          }
+        }
+      },
+      "block_order": [
+        "store",
+        "info",
+        "4dfe22c2-ea82-4082-baee-45eba08d1ac8",
+        "aeb61b6a-898f-4f73-b674-ea23639bc0aa",
+        "df308683-0cc4-447d-8d3c-d7986a940848",
+        "a4d69399-3bb5-4564-9468-58bdebd719bc",
+        "dafcdf5d-7880-46e6-b71a-f195c2ff7146"
+      ],
+      "settings": {
+        "logo_src": "shopify:\/\/shop_images\/mrchow_new.png",
+        "logo_height": 100,
+        "main_linklist": "main-menu",
+        "show_search": true,
+        "sticky_header": true,
+        "select_header_actions_on_mobile": "show_always",
+        "show_header_actions": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_social_icons": true
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

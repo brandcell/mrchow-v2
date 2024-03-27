@@ -1,0 +1,896 @@
+{
+  "sections": {
+    "1653646142d6a7c886": {
+      "type": "slideshow",
+      "blocks": {
+        "1653646142fd3f3126-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mrchow_FB_cover-02_3.jpg",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "1653646142fd3f3126-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/auction_banner.jpg",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "4184f522-a3cb-46db-b6a7-c65c9afc5da5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bulk_order.jpg",
+            "caption": "",
+            "title": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "1653646142fd3f3126-0",
+        "1653646142fd3f3126-1",
+        "4184f522-a3cb-46db-b6a7-c65c9afc5da5"
+      ],
+      "settings": {
+        "desktop_height": "80vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "alignment": "horizontal-center align-content--vertical-middle",
+        "text_size": "regular",
+        "title_size": "h1",
+        "button_size": "large",
+        "button_style": "solid",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_hide_borders": false,
+        "color_hide_shadow": true
+      }
+    },
+    "16541619272fee0e4e": {
+      "type": "collection-list",
+      "blocks": {
+        "ee5b7fe5-b950-43ab-bcf9-9f2a564e8c74": {
+          "type": "collection",
+          "settings": {
+            "collection": "gin"
+          }
+        },
+        "4fd20197-57e5-4687-8996-e9875ddf993f": {
+          "type": "collection",
+          "settings": {
+            "collection": "whisky"
+          }
+        },
+        "74d1d8df-2b25-4fd0-aafa-d887747b7fc1": {
+          "type": "collection",
+          "settings": {
+            "collection": "vodka"
+          }
+        },
+        "ed3e6d73-9210-4605-8cd0-18ae029e2fff": {
+          "type": "collection",
+          "settings": {
+            "collection": "wine"
+          }
+        },
+        "16541619273bcea29e-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "cognac"
+          }
+        },
+        "1729e2d9-2ae7-481f-a755-76e799800352": {
+          "type": "collection",
+          "settings": {
+            "collection": "sales-collection",
+            "image": "shopify:\/\/shop_images\/jinro-green-grape-soju-x6.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "ee5b7fe5-b950-43ab-bcf9-9f2a564e8c74",
+        "4fd20197-57e5-4687-8996-e9875ddf993f",
+        "74d1d8df-2b25-4fd0-aafa-d887747b7fc1",
+        "ed3e6d73-9210-4605-8cd0-18ae029e2fff",
+        "16541619273bcea29e-1",
+        "1729e2d9-2ae7-481f-a755-76e799800352"
+      ],
+      "settings": {
+        "heading": "All categories",
+        "subheading": "",
+        "show_view_all": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-6 grid-portable-4 grid-lap-3 grid-palm-2",
+        "image_aspect_ratio": "1",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "eb96683a-a12c-46d8-aa53-825fcba9eaa0": {
+      "type": "featured-collection",
+      "blocks": {
+        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-title-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-quick_buy-1": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-price-1",
+        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-title-1",
+        "template--17171074777303__eb96683a-a12c-46d8-aa53-825fcba9eaa0-quick_buy-1"
+      ],
+      "settings": {
+        "heading": "Featured Deals",
+        "subheading": "Showcase your best products",
+        "show_view_all": false,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 9,
+        "collection": "mega-bundle",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "2fe5312e-e69f-45d1-bac2-bcdf636d2cf0": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        },
+        "0732fb3a-f464-4724-9427-62214bde5409": {
+          "type": "local_availability",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "2fe5312e-e69f-45d1-bac2-bcdf636d2cf0",
+        "quick_buy",
+        "0732fb3a-f464-4724-9427-62214bde5409"
+      ],
+      "settings": {
+        "heading": "Best Sellers",
+        "subheading": "",
+        "show_view_all": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 8,
+        "collection": "gin",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "1654161920efe5f084": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "1654161920f21316cf-0": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "title": "Free Delivery",
+            "caption": "For orders above RM450",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "1654161920f21316cf-1": {
+          "type": "image",
+          "settings": {
+            "icon": "wallet",
+            "title": "Value Prices",
+            "caption": "Drinking doesn't have to break your wallet",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "1654161920f21316cf-2": {
+          "type": "image",
+          "settings": {
+            "icon": "alcohol-bottle",
+            "title": "Genuine Liquor",
+            "caption": "100% Authentic",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "1654161920f21316cf-0",
+        "1654161920f21316cf-1",
+        "1654161920f21316cf-2"
+      ],
+      "settings": {
+        "heading": "What We Offer",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "16551212489c663a1e": {
+      "type": "featured-collection",
+      "blocks": {
+        "1655121248aee0f086-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1655121248aee0f086-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1655121248aee0f086-2": {
+          "type": "quick_buy",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1655121248aee0f086-0",
+        "1655121248aee0f086-1",
+        "1655121248aee0f086-2"
+      ],
+      "settings": {
+        "heading": "Promotions",
+        "subheading": "",
+        "show_view_all": true,
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 8,
+        "collection": "promotions",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "1655121489db318f96": {
+      "type": "shop-the-look",
+      "blocks": {
+        "1655121489da0fd0f2-0": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1655121489da0fd0f2-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "1655121489da0fd0f2-2": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1655121489da0fd0f2-0",
+        "1655121489da0fd0f2-1",
+        "ffd8f1c9-28ad-4008-a0c2-02d31f483ede",
+        "1655121489da0fd0f2-2"
+      ],
+      "custom_css": [
+        "figure img {object-fit: contain;}"
+      ],
+      "settings": {
+        "heading": "Mega Bundles",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "image": "shopify:\/\/shop_images\/megabundle.png",
+        "product_list": [
+          "monthly-mega-bundle"
+        ],
+        "color_background_main": "#ee3535",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "870bf8e4-5d5c-4657-bdb0-d4e03f363b85": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-title-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-quick_buy-1": {
+          "type": "quick_buy",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-price-1",
+        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-title-1",
+        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-quick_buy-1"
+      ],
+      "custom_css": [
+        "figure img {object-fit: contain;}"
+      ],
+      "settings": {
+        "heading": "Flash Sales",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "image": "shopify:\/\/shop_images\/flashsale-title.png",
+        "product_list": [
+
+        ],
+        "color_background_main": "#ffcf0a",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "16551304148266b5a5": {
+      "type": "rich-text",
+      "blocks": {
+        "1655130414988486bd-0": {
+          "type": "title",
+          "settings": {
+            "title": "About us",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "1655130414988486bd-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Write a big, bold statement about your brand. Catch your visitors attention by using some additional images with your products or store.<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "1655130414988486bd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "1655130414988486bd-0",
+        "1655130414988486bd-1",
+        "1655130414988486bd-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "top",
+        "height": "regular",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "#e1e0d7",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "16551074833cdf378e": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "16551074836af554cd-0": {
+          "type": "image",
+          "settings": {
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "16551074836af554cd-1": {
+          "type": "image",
+          "settings": {
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "16551074836af554cd-0",
+        "16551074836af554cd-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "60%",
+        "caption_size": "small",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "regular",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "16546982542e923b5a": {
+      "type": "featured-product",
+      "blocks": {
+        "16546982534861ca3b-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16546982534861ca3b-0": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h2"
+          }
+        },
+        "16546982534861ca3b-4": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "16546982534861ca3b-2": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "16546982534861ca3b-3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": true,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "16546982534861ca3b-1",
+        "16546982534861ca3b-0",
+        "16546982534861ca3b-4",
+        "16546982534861ca3b-2",
+        "16546982534861ca3b-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "165407625224b5d2af": {
+      "type": "rich-text",
+      "blocks": {
+        "1654076252f525bcb1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Up to 50% discount<\/strong><\/p>",
+            "text_size": "regular"
+          }
+        },
+        "1654076252f525bcb1-0": {
+          "type": "title",
+          "settings": {
+            "title": "About our products",
+            "title_size": "h1",
+            "seo_h_tag": "h2"
+          }
+        },
+        "4055a9b7-fa9d-4a7a-b5e0-d052561d6f9c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Write a big, bold statement about your brand. Catch your visitors attention by using some additional images with your products or store.<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "1654076252f525bcb1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "1654076252f525bcb1-1",
+        "1654076252f525bcb1-0",
+        "4055a9b7-fa9d-4a7a-b5e0-d052561d6f9c",
+        "1654076252f525bcb1-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "right",
+        "height": "large",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "#e7e7e7",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "#e1e1e1",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": false
+      }
+    },
+    "165597098555c514a4": {
+      "type": "text-columns-images",
+      "blocks": {
+        "1655970985e1e8c596-0": {
+          "type": "image",
+          "settings": {
+            "title": "Shipping",
+            "caption": "Useful information about your shipping details",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "1655970985e1e8c596-1": {
+          "type": "image",
+          "settings": {
+            "title": "Returns",
+            "caption": "Show how much time customers have for testing your products",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "1655970985e1e8c596-2": {
+          "type": "image",
+          "settings": {
+            "title": "Pickup",
+            "caption": "Let your customers know about local pickup",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "1655970985e1e8c596-0",
+        "1655970985e1e8c596-1",
+        "1655970985e1e8c596-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "165650871288cb3c80": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "1656508712d3848f85-0": {
+          "type": "image",
+          "settings": {
+            "caption": "",
+            "title": "Bring the best spirits",
+            "subtitle": "Bartending anywhere you need it",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "#000000",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": true,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "1656508712d3848f85-0"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-1",
+        "height": "large",
+        "alignment": "horizontal-center align-content--vertical-middle",
+        "width": "60%",
+        "caption_size": "regular",
+        "title_size": "h1",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "outline",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "16551127939786a43a": {
+      "type": "blog-posts",
+      "blocks": {
+        "165511279388d6ad87-0": {
+          "type": "info",
+          "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
+          }
+        },
+        "165511279388d6ad87-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "6d7d92cc-64fe-4f89-9974-bb98f18308a0": {
+          "type": "summary",
+          "disabled": true,
+          "settings": {
+            "excerpt_limit": 20
+          }
+        }
+      },
+      "block_order": [
+        "165511279388d6ad87-0",
+        "165511279388d6ad87-1",
+        "6d7d92cc-64fe-4f89-9974-bb98f18308a0"
+      ],
+      "settings": {
+        "title": "Mr Chow's Drink Diary",
+        "subheading": "",
+        "show_view_all": true,
+        "section_heading_layout": "section-heading--left",
+        "blog": "news",
+        "emphasize_first": true,
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "16553621956de397b6": {
+      "type": "testimonials",
+      "blocks": {
+        "16553621951e01132c-0": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Author",
+            "author_title": "Customer",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>"
+          }
+        },
+        "16553621951e01132c-1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Author",
+            "author_title": "Customer",
+            "quote": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16553621951e01132c-0",
+        "16553621951e01132c-1"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "subheading": "What our clients say",
+        "section_heading_layout": "section-heading--left",
+        "quote_font": "crimson_text_i4",
+        "quote_font_size": 34,
+        "quote_line_height": 1.1,
+        "content_alignment": "center",
+        "color_background_main": "#ebebe5",
+        "color_text_main": "#000000",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "1657094048f07fb2a2": {
+      "type": "marquee",
+      "blocks": {
+        "16570940482780d791-0": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Liquor for the Best Time"
+          }
+        },
+        "17541091-3633-48b6-97e0-ca55f3bf4a9f": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "100% Genuine Alcohol"
+          }
+        }
+      },
+      "block_order": [
+        "16570940482780d791-0",
+        "17541091-3633-48b6-97e0-ca55f3bf4a9f"
+      ],
+      "settings": {
+        "scroll_direction": "left",
+        "speed": 230,
+        "pause_on_hover": true,
+        "remove_top_margin": false,
+        "remove_bottom_margin": false,
+        "color_background_main": "#ff4c0a",
+        "color_text_main": "#ffffff"
+      }
+    },
+    "1655112847aaa4cc50": {
+      "type": "newsletter",
+      "settings": {
+        "show_icon": true,
+        "title": "Sign up for our newsletter",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "color_background_main": "#000000",
+        "color_text_main": "#ffffff",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "1653646142d6a7c886",
+    "16541619272fee0e4e",
+    "eb96683a-a12c-46d8-aa53-825fcba9eaa0",
+    "featured-collection",
+    "1654161920efe5f084",
+    "16551212489c663a1e",
+    "1655121489db318f96",
+    "870bf8e4-5d5c-4657-bdb0-d4e03f363b85",
+    "16551304148266b5a5",
+    "16551074833cdf378e",
+    "16546982542e923b5a",
+    "165407625224b5d2af",
+    "165597098555c514a4",
+    "165650871288cb3c80",
+    "16551127939786a43a",
+    "16553621956de397b6",
+    "1657094048f07fb2a2",
+    "1655112847aaa4cc50"
+  ]
+}

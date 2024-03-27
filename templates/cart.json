@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "cart_progress_bar_gaMzVF": {
+      "type": "cart-progress-bar",
+      "blocks": {
+        "threshold_xzGAnc": {
+          "type": "threshold",
+          "settings": {
+            "title": "Free Shipping",
+            "icon": "shopify:\/\/shop_images\/express-delivery_1.svg",
+            "value": 450
+          }
+        },
+        "threshold_RdnJ8z": {
+          "type": "threshold",
+          "settings": {
+            "title": "Free Whiskey",
+            "icon": "shopify:\/\/shop_images\/g3084.svg",
+            "value": 1000
+          }
+        },
+        "threshold_Rt88B8": {
+          "type": "threshold",
+          "settings": {
+            "title": "Threshold name",
+            "value": 450
+          }
+        }
+      },
+      "block_order": [
+        "threshold_xzGAnc",
+        "threshold_RdnJ8z",
+        "threshold_Rt88B8"
+      ],
+      "settings": {
+        "bar_color": "#EE3535",
+        "accented_text_color": "#EE3535"
+      }
+    },
+    "main-cart": {
+      "type": "main-cart",
+      "blocks": {
+        "cart-items": {
+          "type": "cart-items",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "cart-items"
+      ],
+      "settings": {
+      }
+    },
+    "e65d85a3-1093-4a27-b5df-121683fe127d": {
+      "type": "apps",
+      "blocks": {
+        "409e8b51-3c0b-43db-a656-f1132aab17b6": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "cartpage-061240",
+            "additional_classes": "",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "409e8b51-3c0b-43db-a656-f1132aab17b6"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_margin": false
+      }
+    }
+  },
+  "order": [
+    "cart_progress_bar_gaMzVF",
+    "main-cart",
+    "e65d85a3-1093-4a27-b5df-121683fe127d"
+  ]
+}

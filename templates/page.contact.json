@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "center": false
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "blocks": {
+        "c1a4a95a-6f98-4a87-920e-a06a4940e443": {
+          "type": "text",
+          "settings": {
+            "title": "Contact information",
+            "content": "<p>Email: <\/p><p> <a href=\"mailto:support@mrchowliquorstore.com\">support@mrchowliquorstore.com<\/a><\/p><p>Phone: +6016 9562 840 Joyce<\/p>",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "c1a4a95a-6f98-4a87-920e-a06a4940e443"
+      ],
+      "settings": {
+        "heading": "Drop us a line",
+        "show_phone": false,
+        "show_subject": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact-form"
+  ]
+}
