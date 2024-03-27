@@ -75,6 +75,7 @@
       "blocks": {
         "price_cQBanU": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
