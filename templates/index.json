@@ -314,48 +314,6 @@
         "seo_h_tag": "h2"
       }
     },
-    "870bf8e4-5d5c-4657-bdb0-d4e03f363b85": {
-      "type": "shop-the-look",
-      "blocks": {
-        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-price-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-title-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-quick_buy-1": {
-          "type": "quick_buy",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-price-1",
-        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-title-1",
-        "template--17171074777303__870bf8e4-5d5c-4657-bdb0-d4e03f363b85-quick_buy-1"
-      ],
-      "custom_css": [
-        "figure img {object-fit: contain;}"
-      ],
-      "settings": {
-        "heading": "Flash Sales",
-        "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "image": "shopify:\/\/shop_images\/flashsale-title.png",
-        "product_list": [
-
-        ],
-        "color_background_main": "#ffcf0a",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false,
-        "seo_h_tag": "h2"
-      }
-    },
     "16551304148266b5a5": {
       "type": "rich-text",
       "blocks": {
@@ -639,6 +597,11 @@
         "seo_h_tag": "h2"
       }
     },
+    "taste-profile": {
+      "type": "taste-profile",
+      "settings": {
+      }
+    },
     "16551127939786a43a": {
       "type": "blog-posts",
       "blocks": {
@@ -716,26 +679,6 @@
         "color_text_main": "#ffffff"
       }
     },
-    "1655112847aaa4cc50": {
-      "type": "newsletter",
-      "settings": {
-        "show_icon": true,
-        "title": "Sign up for our newsletter",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "color_background_main": "#000000",
-        "color_text_main": "#ffffff",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "section_background_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "taste-profile": {
-      "type": "taste-profile",
-      "settings": {
-      }
-    },
     "6c086dba-1c80-4675-a229-94f9ff83be0c": {
       "type": "apps",
       "blocks": {
@@ -777,6 +720,67 @@
         "full_width": false,
         "remove_margin": false
       }
+    },
+    "media_with_text_overlay_LeAyC7": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "image_xDcBBA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/promo-card1.png",
+            "caption": "The Absolute",
+            "title": "Best Deals",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_ph9LkJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/promo-card-2.png",
+            "caption": "Calling",
+            "title": "Auction",
+            "subtitle": "for Balvenie",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "#ffffff",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_xDcBBA",
+        "image_ph9LkJ"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-2 grid-lap-1",
+        "height": "regular",
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "width": "90%",
+        "caption_size": "regular",
+        "title_size": "h3",
+        "subtitle_size": "regular",
+        "button_size": "large",
+        "button_style": "solid",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
     }
   },
   "order": [
@@ -785,17 +789,16 @@
     "1655121489db318f96",
     "1654161920efe5f084",
     "promotion_cards_rxHM9y",
-    "870bf8e4-5d5c-4657-bdb0-d4e03f363b85",
     "16551304148266b5a5",
     "16551074833cdf378e",
     "16546982542e923b5a",
     "165407625224b5d2af",
     "165597098555c514a4",
+    "taste-profile",
     "16551127939786a43a",
     "1657094048f07fb2a2",
-    "1655112847aaa4cc50",
-    "taste-profile",
     "6c086dba-1c80-4675-a229-94f9ff83be0c",
-    "122971da-0f19-4b4c-8e98-163fd3065536"
+    "122971da-0f19-4b4c-8e98-163fd3065536",
+    "media_with_text_overlay_LeAyC7"
   ]
 }
