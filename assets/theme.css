@@ -2575,9 +2575,3 @@ html[dir="ltr"] .lazy-image:not(.lazy-image--no-transition):after,
 html[dir="ltr"] .svg-placeholder.svg-placeholder--background {
   left: 0;
 }
-
-@font-face {
-  font-family: "PPAcma-Black";
-  src: url("PPAcma-Black.woff2") format("woff2"),
-    url("PPAcma-Black.woff") format("woff");
-}

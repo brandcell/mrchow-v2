@@ -1,1 +1,104 @@
-This is the taste profile
+<div class="py-24 flex flex-col max-w-[1360px] mx-auto w-full px-8">
+  <h2 class="text-[36px] mb-[36px] font-semibold">Shop By Taste Profile</h2>
+
+  <div id="container" class="flex gap-5 flex-wrap">
+    {% comment %}
+      Initialize an empty array to collect all metafield texts
+    {% endcomment %}
+    {% assign all_texts = '' %}
+
+    {% comment %}
+      Loop through each product to extract metafield texts
+    {% endcomment %}
+    {% for product in collections.all.products %}
+      {% if product.metafields.filters and product.metafields.filters.taste %}
+        {% assign metafield_values = product.metafields.filters.taste | split: '","' %}
+        {% for value in metafield_values %}
+          {% assign clean_value = value | replace: '[', '' | replace: ']', '' | replace: '"', '' | strip %}
+          {% unless all_texts contains clean_value %}
+            {% case clean_value %}
+              {% when 'Spicy' %}
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
+                  {{ images['spicy.png'] | image_url: width: 189 | image_tag }}
+                  <p class="">{{ clean_value }}</p>
+                </div>
+
+              {% when 'Fruity' %}
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
+                  {{ images['fruity.png'] | image_url: width: 189 | image_tag }}
+                  <p class="">{{ clean_value }}</p>
+                </div>
+
+              {% when 'Herbaceous' %}
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
+                  {{ images['herby.png'] | image_url: width: 189 | image_tag }}
+                  <p class="">{{ clean_value }}</p>
+                </div>
+
+              {% when 'Sweet' %}
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
+                  {{ images['sweet.png'] | image_url: width: 189 | image_tag }}
+                  <p class="">{{ clean_value }}</p>
+                </div>
+
+              {% when 'Smoky' %}
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
+                  {{ images['charcoal.png'] | image_url: width: 189 | image_tag }}
+                  <p class="">{{ clean_value }}</p>
+                </div>
+
+              {% else %}
+
+            {% endcase %}
+
+            {% assign all_texts = all_texts | append: clean_value | append: ',' %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% comment %}
+  <script>
+    var myHeaders = new Headers();
+    myHeaders.append('X-Shopify-Access-Token', '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');
+    myHeaders.append('Content-Type', 'application/json');
+    myHeaders.append('Cookie', 'request_method=POST');
+
+    var graphql = JSON.stringify({
+      query:
+        'query{\n  metafieldDefinition(id:"gid://shopify/MetafieldDefinition/10545561815") {\n    id\n    namespace\n    key\n    validations {\n      value\n    }\n  }\n}',
+      variables: {},
+    });
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: graphql,
+      redirect: 'follow',
+    };
+
+    fetch('https://liquorstoretest.myshopify.com/admin/api/2024-01/graphql.json', requestOptions)
+      .then((response) => response.json())
+      .then((result) => {
+        const validValues = result.data.metafieldDefinition.validations[0].value;
+        const parsedValidValues = JSON.parse(validValues);
+
+        const container = document.getElementById('container'); // Assuming you have a container element in your HTML
+        parsedValidValues.forEach((value) => {
+          const div = document.createElement('div');
+          const h1 = document.createElement('h1');
+          h1.textContent = value;
+          div.appendChild(h1);
+          container.appendChild(div);
+        });
+      })
+      .catch((error) => console.log('error', error));
+  </script>
+{% endcomment %}
+
+{% comment %}
+  https://liquorstoretest.myshopify.com/admin/api/2024-01/graphql.json
+
+  id:"gid://shopify/MetafieldDefinition/10545561815"
+{% endcomment %}
