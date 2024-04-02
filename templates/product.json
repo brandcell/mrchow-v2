@@ -132,9 +132,10 @@
           "type": "food_pairing",
           "repeater": "{{ product.metafields.custom.food_pairings.value }}",
           "settings": {
-            "title": "{{ block.repeater.title.value }}",
+            "food_title": "{{ block.repeater.title.value }}",
             "image": "{{ block.repeater.image.value }}",
-            "explanation": ""
+            "food_category": "{{ block.repeater.category.value }}",
+            "explanation": "The whisky's fruity and toffee notes complement the richness of coconut-infused rice, anchovies, and spicy sambal."
           }
         }
       },

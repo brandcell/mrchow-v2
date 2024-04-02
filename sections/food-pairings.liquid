@@ -2,9 +2,12 @@
   <h3 class="font-semibold self-center ">{{ section.settings.food_section_title }}</h3>
   <div class="flex flex-row">
     {% for block in section.blocks %}
-      <p>{{ block.settings.title }}</p>
-      <img width="40" height="40" src="{{block.settings.image}}" alt="">
-      <p>{{ block.settings.explanation }}</p>
+      <div class="food-card flex flex-col">
+        <p>{{ block.settings.food_category }}</p>
+        <p>{{ block.settings.food_title }}</p>
+        <img width="40" height="40" src="{{block.settings.image | image_url }}" alt="">
+        <p>{{ block.settings.explanation }}</p>
+      </div>
     {% endfor %}
   </div>
 </div>
@@ -16,7 +19,7 @@
     {
       "type": "text",
       "id": "food_section_title",
-      "label": "Food Section",
+      "label": "Food Section Title",
       "default": "Food Pairings"
     }
   ],
@@ -27,13 +30,18 @@
       "settings": [
         {
           "type": "text",
-          "id": "title",
+          "id": "food_title",
           "label": "Title"
         },
         {
           "type": "image_picker",
           "id": "image",
           "label": "Upload Icon"
+        },
+        {
+          "type": "text",
+          "id": "food_category",
+          "label": "Category"
         },
         {
           "type": "textarea",
