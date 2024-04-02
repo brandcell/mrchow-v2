@@ -11,12 +11,14 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -27,7 +29,8 @@
         },
         "empty_space_1": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -41,19 +44,23 @@
         },
         "empty_space_2": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "empty_space_3": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "share": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         },
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0": {
           "type": "progress-dots",
@@ -123,47 +130,38 @@
       "blocks": {
         "food_pairing_x94JrX": {
           "type": "food_pairing",
+          "repeater": "{{ product.metafields.custom.food_pairings.value }}",
           "settings": {
-            "title": "",
-            "explanation": ""
-          }
-        },
-        "food_pairing_k7R8yb": {
-          "type": "food_pairing",
-          "settings": {
-            "title": "",
-            "explanation": ""
-          }
-        },
-        "food_pairing_DW9gkz": {
-          "type": "food_pairing",
-          "settings": {
-            "title": "",
+            "title": "{{ block.repeater.title.value }}",
+            "image": "{{ block.repeater.image.value }}",
             "explanation": ""
           }
         }
       },
       "block_order": [
-        "food_pairing_x94JrX",
-        "food_pairing_k7R8yb",
-        "food_pairing_DW9gkz"
+        "food_pairing_x94JrX"
       ],
-      "settings": {}
+      "settings": {
+        "food_section_title": "Food Pairings"
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "quick_buy": {
           "type": "quick_buy",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -208,7 +206,8 @@
       "blocks": {
         "judge_me_reviews_review_widget_AFG4jL": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -223,8 +222,6 @@
   "order": [
     "main",
     "food-pairings",
-    "47b51ecb-eac8-4cad-bd3e-a011ca28f3fc",
-    "dc2a2458-a4d4-470a-b499-5a491fddbca2",
     "product-recommendations",
     "95d49e3c-da4e-4477-ad5c-240df6653576",
     "1706514847fd68f821"
