@@ -279,12 +279,6 @@
           "custom_code": "<script>\n    \/\/ custom code here\n<\/script>"
         }
       },
-      "7280966411886983154": {
-        "type": "shopify:\/\/apps\/monk\/blocks\/app-embed\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "14198427981142892921": {
         "type": "shopify:\/\/apps\/wishlist-engine\/blocks\/app-embed\/8f7c0857-8e71-463d-a168-8e133094753b",
         "disabled": true,
@@ -306,6 +300,12 @@
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "7280966411886983154": {
+        "type": "shopify:\/\/apps\/monk\/blocks\/app-embed\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
+        "disabled": true,
         "settings": {
         }
       }
