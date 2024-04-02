@@ -11,12 +11,14 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -27,7 +29,8 @@
         },
         "empty_space_1": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -41,19 +44,23 @@
         },
         "empty_space_2": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "empty_space_3": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "share": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         },
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0": {
           "type": "progress-dots",
@@ -85,7 +92,10 @@
           }
         },
         "taste_chart": {
-          "type": "taste_chart"
+          "type": "taste_chart",
+          "settings": {
+            "taste_chart_title": "Tasting Chart"
+          }
         }
       },
       "block_order": [
@@ -115,32 +125,37 @@
         "enable_video_looping": false
       }
     },
-    "47b51ecb-eac8-4cad-bd3e-a011ca28f3fc": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".taste-profile-header {font-family: \"PP Acma\"; font-weight: 500; text-align: center;}",
-        ".tag-container {display: flex; justify-content: space-evenly;}",
-        ".tag-wrapper {border: 1px solid red; padding: 10px; background: palevioletred; border-radius: 45px;}",
-        "p {margin-bottom: 0px;}"
+    "food-pairings": {
+      "type": "food-pairings",
+      "blocks": {
+        "food_pairing_x94JrX": {
+          "type": "food_pairing",
+          "settings": {
+            "title": "",
+            "explanation": ""
+          }
+        },
+        "food_pairing_k7R8yb": {
+          "type": "food_pairing",
+          "settings": {
+            "title": "",
+            "explanation": ""
+          }
+        },
+        "food_pairing_DW9gkz": {
+          "type": "food_pairing",
+          "settings": {
+            "title": "",
+            "explanation": ""
+          }
+        }
+      },
+      "block_order": [
+        "food_pairing_x94JrX",
+        "food_pairing_k7R8yb",
+        "food_pairing_DW9gkz"
       ],
       "settings": {
-        "custom_liquid": "<h3 class=\"taste-profile-header\"> Taste Profiles <\/h3>\n\n<div class=\"tag-container\">\n\n{% for taste in product.metafields.filters.taste.value %} \n\n<div class=\"tag-wrapper\">\n<p>{{ taste }}<\/p>\n<\/div>\n\n \n{% endfor %} \n\n<\/div>",
-        "full_width": false,
-        "remove_margin": false
-      }
-    },
-    "dc2a2458-a4d4-470a-b499-5a491fddbca2": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".food-pairings-header {font-family: \"PP Acma\"; font-weight: 500; text-align: center;}",
-        ".tag-container {display: flex; justify-content: space-evenly;}",
-        ".tag-wrapper {border: 1px solid red; padding: 10px; background: coral; color: white; border-radius: 45px; align-self: start;}",
-        "p {margin-bottom: 0px;}"
-      ],
-      "settings": {
-        "custom_liquid": "<h3 class=\"food-pairings-header\"> Food Pairings <\/h3>\n\n<div class=\"tag-container\">\n\n{% for food in product.metafields.custom.food_pairings.value %} \n\n<div class=\"tag-wrapper\">\n<p>{{ food }}<\/p>\n<\/div>\n\n \n{% endfor %} \n\n<\/div>",
-        "full_width": false,
-        "remove_margin": false
       }
     },
     "product-recommendations": {
@@ -148,15 +163,18 @@
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "quick_buy": {
           "type": "quick_buy",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -201,7 +219,8 @@
       "blocks": {
         "judge_me_reviews_review_widget_AFG4jL": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -211,16 +230,11 @@
         "full_width": false,
         "remove_margin": false
       }
-    },
-    "food-pairings": {
-      "type": "food-pairings"
     }
   },
   "order": [
     "main",
     "food-pairings",
-    "47b51ecb-eac8-4cad-bd3e-a011ca28f3fc",
-    "dc2a2458-a4d4-470a-b499-5a491fddbca2",
     "product-recommendations",
     "95d49e3c-da4e-4477-ad5c-240df6653576",
     "1706514847fd68f821"
