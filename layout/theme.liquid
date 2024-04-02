@@ -56,8 +56,9 @@
     {%- render 'head-preloader' -%}
     {%- render 'head-variables', direction: direction -%}
 
-    {{ 'theme.css' | asset_url | stylesheet_tag }}
     {{ 'style.css' | asset_url | stylesheet_tag }}
+
+    {{ 'theme.css' | asset_url | stylesheet_tag }}
 
     {% render 'boost-sd-fallback' %}
     {{ content_for_header }}
