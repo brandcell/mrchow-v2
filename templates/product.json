@@ -85,7 +85,10 @@
           }
         },
         "taste_chart": {
-          "type": "taste_chart"
+          "type": "taste_chart",
+          "settings": {
+            "taste_chart_title": "Tasting Chart"
+          }
         }
       },
       "block_order": [
@@ -215,14 +218,10 @@
         "full_width": false,
         "remove_margin": false
       }
-    },
-    "food-pairings": {
-      "type": "food-pairings"
     }
   },
   "order": [
     "main",
-    "food-pairings",
     "food-pairings",
     "47b51ecb-eac8-4cad-bd3e-a011ca28f3fc",
     "dc2a2458-a4d4-470a-b499-5a491fddbca2",
