@@ -944,19 +944,39 @@
             </div>
           </div>
 
-        {% when 'taste_characters' %}
-          <div>
-            <p>{{ block.settings.taste_chart }}</p>
-            <div>
-              <div>
+        {% when 'taste_chart' %}
+          <div class="border-solid border-2 border-[#F1F1F1] rounded-[11px]">
+            <div class="p-6 bg-[#F1F1F1]">
+              <p class="text-[26px] mb-0">{{ block.settings.taste_chart_title }}</p>
+            </div>
+            <div class=" p-[16px] border-solid border-y-2 border-[#F1F1F1]">
+              <div class="flex gap-3 items-center">
+                {{ images['nose-icon.png'] | image_url: width: 30, height: 30 | image_tag: class: 'object-cover' }}
                 <div>
-                  <p>Nose</p>
-                  <div>{{ product.metafields.custom.nose }}</div>
+                  <p class="text-[18px]">Nose</p>
+                  <p class="text-[#707070]">{{ product.metafields.custom.nose }}</p>
                 </div>
               </div>
+            </div>
 
-              <div>Nose: {{ product.metafields.custom.palate }}</div>
-              <div>Nose: {{ product.metafields.custom.finish }}</div>
+            <div class="p-[16px] border-solid border-b-2 border-[#F1F1F1]">
+              <div class="flex gap-3 items-center">
+                {% render 'icon-palate' %}
+                <div>
+                  <p class="text-[18px]">Palatte</p>
+                  <p class="text-[#707070] m-0">{{ product.metafields.custom.nose }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-[16px] ">
+              <div class="flex gap-3 items-center">
+                {% render 'icon-finish' %}
+                <div>
+                  <p class="text-[18px]">Finish</p>
+                  <p class="text-[#707070]">{{ product.metafields.custom.nose }}</p>
+                </div>
+              </div>
             </div>
           </div>
       {%- endcase -%}
@@ -1750,12 +1770,12 @@
     },
 
     {
-      "type": "taste_characters",
+      "type": "taste_chart",
       "name": "Taste Characters Chart",
       "settings": [
         {
           "type": "text",
-          "id": "taste_chart",
+          "id": "taste_chart_title",
           "label": "Title",
           "default": "Tasting Chart"
         }

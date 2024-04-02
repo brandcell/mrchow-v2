@@ -11,14 +11,12 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -29,8 +27,7 @@
         },
         "empty_space_1": {
           "type": "space",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -44,23 +41,19 @@
         },
         "empty_space_2": {
           "type": "space",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "empty_space_3": {
           "type": "space",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         },
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0": {
           "type": "progress-dots",
@@ -90,6 +83,9 @@
             "slider_color_default": "rgba(0,0,0,0)",
             "slider_color_active": "rgba(0,0,0,0)"
           }
+        },
+        "taste_chart": {
+          "type": "taste_chart"
         }
       },
       "block_order": [
@@ -104,7 +100,8 @@
         "empty_space_3",
         "share",
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0",
-        "00aeb3aa-c241-48b2-8bd7-ba19f2af5cb9"
+        "00aeb3aa-c241-48b2-8bd7-ba19f2af5cb9",
+        "taste_chart"
       ],
       "settings": {
         "gallery_style": "slider",
@@ -151,18 +148,15 @@
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "quick_buy": {
           "type": "quick_buy",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -207,8 +201,7 @@
       "blocks": {
         "judge_me_reviews_review_widget_AFG4jL": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
