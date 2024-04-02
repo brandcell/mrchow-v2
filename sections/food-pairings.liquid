@@ -1,15 +1,25 @@
-<div>
-  {% for block in section.blocks %}
-    <p>{{ block.settings.title }}</p>
-    <img width="40" height="40" src="{{block.settings.image}}" alt="">
-    <p>{{ block.settings.explanation }}</p>
-  {% endfor %}
+<div class="py-20 flex flex-col">
+  <h3 class="font-semibold self-center ">{{ section.settings.food_section_title }}</h3>
+  <div class="flex flex-row">
+    {% for block in section.blocks %}
+      <p>{{ block.settings.title }}</p>
+      <img width="40" height="40" src="{{block.settings.image}}" alt="">
+      <p>{{ block.settings.explanation }}</p>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
 {
   "name": "Food Pairings",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "food_section_title",
+      "label": "Food Section",
+      "default": "Food Pairings"
+    }
+  ],
   "blocks": [
     {
       "type": "food_pairing",
