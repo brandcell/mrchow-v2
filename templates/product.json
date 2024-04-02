@@ -11,12 +11,14 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -27,7 +29,8 @@
         },
         "empty_space_1": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -41,19 +44,23 @@
         },
         "empty_space_2": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "empty_space_3": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "share": {
           "type": "share",
-          "settings": {}
+          "settings": {
+          }
         },
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0": {
           "type": "progress-dots",
@@ -125,7 +132,9 @@
           "type": "food_pairing",
           "repeater": "{{ product.metafields.custom.food_pairings.value }}",
           "settings": {
+            "food_title": "{{ block.repeater.title.value }}",
             "image": "{{ block.repeater.image.value }}",
+            "food_category": "{{ block.repeater.category.value }}",
             "explanation": "The whisky's fruity and toffee notes complement the richness of coconut-infused rice, anchovies, and spicy sambal."
           }
         }
@@ -142,15 +151,18 @@
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "quick_buy": {
           "type": "quick_buy",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -195,7 +207,8 @@
       "blocks": {
         "judge_me_reviews_review_widget_AFG4jL": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
