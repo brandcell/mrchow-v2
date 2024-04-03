@@ -135,7 +135,7 @@
             "food_title": "{{ block.repeater.title.value }}",
             "image": "{{ block.repeater.image.value }}",
             "food_category": "{{ block.repeater.category.value }}",
-            "explanation": "The whisky's fruity and toffee notes complement the richness of coconut-infused rice, anchovies, and spicy sambal."
+            "explanation": "<p>{{ product.title }} {{ block.repeater.explanation | metafield_tag }}<\/p>"
           }
         }
       },
