@@ -2575,3 +2575,9 @@ html[dir="ltr"] .lazy-image:not(.lazy-image--no-transition):after,
 html[dir="ltr"] .svg-placeholder.svg-placeholder--background {
   left: 0;
 }
+
+.jdgm-rev-widg__title {
+  font-family: PP Acma;
+  font-weight: 600;
+  font-size: 38px !important;
+}
