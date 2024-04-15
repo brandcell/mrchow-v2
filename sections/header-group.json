@@ -62,6 +62,22 @@
             "promotion_image": "shopify:\/\/shop_images\/LaphroaigSelectCaskIslaySingleMalt.jpg"
           }
         },
+        "mega_menu_Hyk3rD": {
+          "type": "mega-menu",
+          "settings": {
+            "menu_handle": "",
+            "show_promotion_block": false,
+            "promotion_title": "Great promotion",
+            "promotion_title_size": "text-size--xlarge",
+            "promotion_subtitle": "Write all about it",
+            "promotion_subtitle_size": "text-size--regular",
+            "promotion_button_label": "",
+            "promotion_button_size": "regular",
+            "promotion_button_link": "",
+            "promotion_color_txt": "#000000",
+            "promotion_color_bg": "#f3f3f3"
+          }
+        },
         "aeb61b6a-898f-4f73-b674-ea23639bc0aa": {
           "type": "mega-menu",
           "settings": {
@@ -132,6 +148,7 @@
         "store",
         "info",
         "4dfe22c2-ea82-4082-baee-45eba08d1ac8",
+        "mega_menu_Hyk3rD",
         "aeb61b6a-898f-4f73-b674-ea23639bc0aa",
         "df308683-0cc4-447d-8d3c-d7986a940848",
         "a4d69399-3bb5-4564-9468-58bdebd719bc",
