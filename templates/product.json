@@ -74,7 +74,7 @@
             "active_dots": 3,
             "dynamic_content": "",
             "icon_color_default": "rgba(0,0,0,0)",
-            "icon_color_active": "rgba(0,0,0,0)"
+            "icon_color_active": "#ee3535"
           }
         },
         "taste_chart": {
