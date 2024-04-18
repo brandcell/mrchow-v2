@@ -72,7 +72,7 @@
             "dot_size": 14,
             "total_dots": 5,
             "active_dots": 3,
-            "dynamic_content": "",
+            "dynamic_content": "{{ product.metafields.custom.complexity_score.value }}",
             "icon_color_default": "rgba(0,0,0,0)",
             "icon_color_active": "#ee3535"
           }
