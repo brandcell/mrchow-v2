@@ -47,6 +47,12 @@
                   <p class="">{{ clean_value }}</p>
                 </div>
 
+              {% when 'Nutty' %}
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
+                  {{ images['nut.png'] | image_url: width: 189 | image_tag }}
+                  <p class="">{{ clean_value }}</p>
+                </div>
+
               {% else %}
 
             {% endcase %}
