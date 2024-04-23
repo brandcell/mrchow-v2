@@ -19,37 +19,43 @@
             {% case clean_value %}
               {% when 'Spicy' %}
                 <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['spicy.png'] | image_url: width: 189 | image_tag }}
+                  {{ images['staranise.webp'] | image_url: width: 189 | image_tag }}
                   <p class="">{{ clean_value }}</p>
                 </div>
 
               {% when 'Fruity' %}
                 <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['fruity.png'] | image_url: width: 189 | image_tag }}
+                  {{ images['grape.webp'] | image_url: width: 189 | image_tag }}
                   <p class="">{{ clean_value }}</p>
                 </div>
 
               {% when 'Herbaceous' %}
                 <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['herby.png'] | image_url: width: 189 | image_tag }}
+                  {{ images['herbs.webp'] | image_url: width: 189 | image_tag }}
                   <p class="">{{ clean_value }}</p>
                 </div>
 
               {% when 'Sweet' %}
                 <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['sweet.png'] | image_url: width: 189 | image_tag }}
+                  {{ images['chocolate.webp'] | image_url: width: 189 | image_tag }}
                   <p class="">{{ clean_value }}</p>
                 </div>
 
               {% when 'Smoky' %}
                 <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['charcoal.png'] | image_url: width: 189 | image_tag }}
+                  {{ images['coal.webp'] | image_url: width: 189 | image_tag }}
                   <p class="">{{ clean_value }}</p>
                 </div>
 
               {% when 'Nutty' %}
                 <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['nut.png'] | image_url: width: 189 | image_tag }}
+                  {{ images['acorn.webp'] | image_url: width: 189 | image_tag }}
+                  <p class="">{{ clean_value }}</p>
+                </div>
+
+              {% when 'Floral' %}
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
+                  {{ images['flower.webp'] | image_url: width: 189 | image_tag }}
                   <p class="">{{ clean_value }}</p>
                 </div>
 
