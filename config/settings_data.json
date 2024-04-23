@@ -313,7 +313,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".boost-sd__instant-search-results--full-width .boost-sd__instant-search-autocomplete{color: black !important}"
+      ".boost-sd__header-item {color: black !important;}"
     ]
   }
 }
