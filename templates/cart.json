@@ -55,6 +55,9 @@
         "cart-items",
         "monk_embedded_cart_page_discount_code_ywfyxn"
       ],
+      "custom_css": [
+        ".h2{font-weight: 600}"
+      ],
       "settings": {
       }
     },
