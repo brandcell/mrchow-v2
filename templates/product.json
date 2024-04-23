@@ -14,9 +14,19 @@
           "settings": {
           }
         },
+        "judge_me_reviews_preview_badge_EmDmiw": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -44,11 +54,6 @@
         },
         "empty_space_2": {
           "type": "space",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
           "settings": {
           }
         },
@@ -87,12 +92,13 @@
       "block_order": [
         "vendor",
         "title",
+        "judge_me_reviews_preview_badge_EmDmiw",
         "price",
+        "description",
         "variant_picker",
         "empty_space_1",
         "buy_buttons",
         "empty_space_2",
-        "description",
         "empty_space_3",
         "share",
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0",
@@ -128,7 +134,7 @@
         "food_pairing_x94JrX"
       ],
       "settings": {
-        "food_section_title": "Food Pairings"
+        "food_section_title": "Pairs Well With"
       }
     },
     "1706514847fd68f821": {
