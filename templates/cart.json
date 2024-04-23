@@ -33,8 +33,8 @@
         "threshold_Rt88B8"
       ],
       "settings": {
-        "bar_color": "#EE3535",
-        "accented_text_color": "#EE3535"
+        "bar_color": "#ee3535",
+        "accented_text_color": "#ee3535"
       }
     },
     "main-cart": {
@@ -44,10 +44,16 @@
           "type": "cart-items",
           "settings": {
           }
+        },
+        "monk_embedded_cart_page_discount_code_ywfyxn": {
+          "type": "shopify:\/\/apps\/monk\/blocks\/embedded-cart-page-discount-code\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "cart-items"
+        "cart-items",
+        "monk_embedded_cart_page_discount_code_ywfyxn"
       ],
       "settings": {
       }
