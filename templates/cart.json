@@ -36,16 +36,10 @@
           "type": "cart-items",
           "settings": {
           }
-        },
-        "monk_embedded_cart_page_discount_code_ywfyxn": {
-          "type": "shopify:\/\/apps\/monk\/blocks\/embedded-cart-page-discount-code\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
-          "settings": {
-          }
         }
       },
       "block_order": [
-        "cart-items",
-        "monk_embedded_cart_page_discount_code_ywfyxn"
+        "cart-items"
       ],
       "custom_css": [
         ".h2 {font-weight: 600;}"
@@ -56,17 +50,21 @@
     "e65d85a3-1093-4a27-b5df-121683fe127d": {
       "type": "apps",
       "blocks": {
-        "409e8b51-3c0b-43db-a656-f1132aab17b6": {
-          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+        "monk_embedded_cart_page_freegift_manual_mBhMhH": {
+          "type": "shopify:\/\/apps\/monk\/blocks\/embedded-cart-page-freegift-manual\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
           "settings": {
-            "widgetId": "cartpage-061240",
-            "additional_classes": "",
-            "custom_css": ""
+            "widget_id": ""
+          }
+        },
+        "monk_embedded_cart_page_discount_code_6LVMw9": {
+          "type": "shopify:\/\/apps\/monk\/blocks\/embedded-cart-page-discount-code\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
+          "settings": {
           }
         }
       },
       "block_order": [
-        "409e8b51-3c0b-43db-a656-f1132aab17b6"
+        "monk_embedded_cart_page_freegift_manual_mBhMhH",
+        "monk_embedded_cart_page_discount_code_6LVMw9"
       ],
       "settings": {
         "full_width": false,
