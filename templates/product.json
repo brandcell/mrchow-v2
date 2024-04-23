@@ -62,11 +62,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
-        },
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0": {
           "type": "progress-dots",
           "settings": {
@@ -100,7 +95,6 @@
         "buy_buttons",
         "empty_space_2",
         "empty_space_3",
-        "share",
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0",
         "taste_chart"
       ],
