@@ -155,8 +155,8 @@
         "dafcdf5d-7880-46e6-b71a-f195c2ff7146"
       ],
       "settings": {
-        "logo_src": "shopify:\/\/shop_images\/mrchow_new.png",
-        "logo_height": 100,
+        "logo_src": "shopify:\/\/shop_images\/MrChow_Horizontal_Black_Logo.webp",
+        "logo_height": 71,
         "main_linklist": "main-menu",
         "show_search": true,
         "sticky_header": true,
