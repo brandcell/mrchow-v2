@@ -1,20 +1,23 @@
-<div class="py-20 flex flex-col px-20 max-w-[1360px] m-auto justify-center">
-  <h3 class="font-semibold self-center ">{{ section.settings.food_section_title }}</h3>
-  <div class="flex flex-row justify-center  md:justify-between flex-wrap">
-    {% for block in section.blocks %}
-      <div class="food-card flex flex-col max-w-[280px] items-center">
-        <div class="max-w-[200px]">
-          <img class="w-full object-cover" src="{{block.settings.image | image_url }}" alt="">
+{% if section.blocks != blank %}
+  <div class="py-20 flex flex-col px-20 max-w-[1360px] m-auto justify-center">
+    <h3 class="font-semibold self-center ">{{ section.settings.food_section_title }}</h3>
+    <div class="flex flex-row justify-evenly flex-wrap">
+      {% for block in section.blocks %}
+        <div class="food-card flex flex-col max-w-[280px] items-center">
+          <div class="max-w-[200px]">
+            <img class="w-full object-cover" src="{{block.settings.image | image_url }}" alt="">
+          </div>
+
+          <p class="text-[26px]">{{ block.settings.food_category }}</p>
+
+          <p class="text-[16px] text-[#1D1D1D62]">{{ block.settings.explanation }}</p>
         </div>
-
-        <p class="text-[26px]">{{ block.settings.food_category }}</p>
-        <p class="text-[22px] text-[#1D1D1D62]">{{ block.settings.food_title }}</p>
-
-        <p class="text-[16px] text-[#1D1D1D62]">{{ block.settings.explanation }}</p>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
-</div>
+{% else %}
+  <p>There are no food pairings at this moment.</p>
+{% endif %}
 
 {% schema %}
 {

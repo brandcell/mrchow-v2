@@ -1,7 +1,7 @@
 <div class="py-24 flex flex-col max-w-[1360px] mx-auto w-full px-8">
   <h2 class="text-[36px] mb-[36px] font-semibold">Shop By Taste Profile</h2>
 
-  <div id="container" class="flex gap-5 flex-wrap">
+  <div id="container" class="flex gap-5 justify-center flex-wrap">
     {% comment %}
       Initialize an empty array to collect all metafield texts
     {% endcomment %}
@@ -18,45 +18,59 @@
           {% unless all_texts contains clean_value %}
             {% case clean_value %}
               {% when 'Spicy' %}
-                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['staranise.webp'] | image_url: width: 189 | image_tag }}
-                  <p class="">{{ clean_value }}</p>
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center hover:scale-105 duration-200 transition-transform">
+                  <a href="{{collections['spicy'].url}}">
+                    {{ images['staranise.webp'] | image_url: width: 189 | image_tag }}
+                    <p class="text-center">{{ clean_value }}</p>
+                  </a>
                 </div>
 
               {% when 'Fruity' %}
-                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['grape.webp'] | image_url: width: 189 | image_tag }}
-                  <p class="">{{ clean_value }}</p>
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center hover:scale-105 duration-200 transition-transform">
+                  <a href="{{collections['fruity'].url}}">
+                    {{ images['grape.webp'] | image_url: width: 189 | image_tag }}
+                    <p class="text-center">{{ clean_value }}</p>
+                  </a>
                 </div>
 
               {% when 'Herbaceous' %}
-                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['herbs.webp'] | image_url: width: 189 | image_tag }}
-                  <p class="">{{ clean_value }}</p>
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center hover:scale-105 duration-200 transition-transform">
+                  <a href="{{collections['herbaceous'].url}}">
+                    {{ images['herbs.webp'] | image_url: width: 189 | image_tag }}
+                    <p class="text-center">{{ clean_value }}</p>
+                  </a>
                 </div>
 
               {% when 'Sweet' %}
-                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['chocolate.webp'] | image_url: width: 189 | image_tag }}
-                  <p class="">{{ clean_value }}</p>
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center hover:scale-105 duration-200 transition-transform">
+                  <a href="{{collections['sweet'].url}}">
+                    {{ images['chocolate.webp'] | image_url: width: 189 | image_tag }}
+                    <p class="text-center">{{ clean_value }}</p>
+                  </a>
                 </div>
 
               {% when 'Smoky' %}
-                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['coal.webp'] | image_url: width: 189 | image_tag }}
-                  <p class="">{{ clean_value }}</p>
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center hover:scale-105 duration-200 transition-transform">
+                  <a href="{{collections['smoky'].url}}">
+                    {{ images['coal.webp'] | image_url: width: 189 | image_tag }}
+                    <p class="text-center">{{ clean_value }}</p>
+                  </a>
                 </div>
 
               {% when 'Nutty' %}
-                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['acorn.webp'] | image_url: width: 189 | image_tag }}
-                  <p class="">{{ clean_value }}</p>
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center hover:scale-105 duration-200 transition-transform">
+                  <a href="{{collections['nutty'].url}}">
+                    {{ images['acorn.webp'] | image_url: width: 189 | image_tag }}
+                    <p class="text-center">{{ clean_value }}</p>
+                  </a>
                 </div>
 
               {% when 'Floral' %}
-                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center">
-                  {{ images['flower.webp'] | image_url: width: 189 | image_tag }}
-                  <p class="">{{ clean_value }}</p>
+                <div class="rounded-[10px] bg-[#f7f7f7] flex flex-col p-6 items-center hover:scale-105 duration-200 transition-transform">
+                  <a href="{{collections['floral'].url}}">
+                    {{ images['flower.webp'] | image_url: width: 189 | image_tag }}
+                    <p class="text-center">{{ clean_value }}</p>
+                  </a>
                 </div>
 
               {% else %}
