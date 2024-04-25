@@ -3,14 +3,6 @@
     "cart_progress_bar_gaMzVF": {
       "type": "cart-progress-bar",
       "blocks": {
-        "threshold_RdnJ8z": {
-          "type": "threshold",
-          "settings": {
-            "title": "Mystery Gift",
-            "icon": "shopify:\/\/shop_images\/g3084.svg",
-            "value": 1000
-          }
-        },
         "threshold_xzGAnc": {
           "type": "threshold",
           "settings": {
@@ -18,11 +10,19 @@
             "icon": "shopify:\/\/shop_images\/express-delivery_1.svg",
             "value": 450
           }
+        },
+        "threshold_RdnJ8z": {
+          "type": "threshold",
+          "settings": {
+            "title": "Mystery Gift",
+            "icon": "shopify:\/\/shop_images\/g3084.svg",
+            "value": 1000
+          }
         }
       },
       "block_order": [
-        "threshold_RdnJ8z",
-        "threshold_xzGAnc"
+        "threshold_xzGAnc",
+        "threshold_RdnJ8z"
       ],
       "settings": {
         "bar_color": "#ee3535",
