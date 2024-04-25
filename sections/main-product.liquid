@@ -949,35 +949,42 @@
             <div class="p-6 bg-[#F1F1F1]">
               <p class="text-[26px] mb-0">{{ block.settings.taste_chart_title }}</p>
             </div>
-            <div class=" p-[16px] border-solid border-y-2 border-[#F1F1F1]">
-              <div class="flex gap-3 items-center">
-                {{ images['nose-icon.png'] | image_url: width: 30, height: 30 | image_tag: class: 'object-cover' }}
-                <div>
-                  <p class="text-[18px]">Nose</p>
-                  <p class="text-[#707070]">{{ product.metafields.custom.nose }}</p>
-                </div>
-              </div>
-            </div>
 
-            <div class="p-[16px] border-solid border-b-2 border-[#F1F1F1]">
-              <div class="flex gap-3 items-center">
-                {% render 'icon-palate' %}
-                <div>
-                  <p class="text-[18px]">Palatte</p>
-                  <p class="text-[#707070] m-0">{{ product.metafields.custom.palate }}</p>
+            {% if product.metafields.custom.nose != blank %}
+              <div class=" p-[16px] border-solid border-y-2 border-[#F1F1F1]">
+                <div class="flex gap-3 items-center">
+                  {{ images['nose-icon.png'] | image_url: width: 30, height: 30 | image_tag: class: 'object-cover' }}
+                  <div>
+                    <p class="text-[18px]">Nose</p>
+                    <p class="text-[#707070]">{{ product.metafields.custom.nose }}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            {% endif %}
 
-            <div class="p-[16px] ">
-              <div class="flex gap-3 items-center">
-                {% render 'icon-finish' %}
-                <div>
-                  <p class="text-[18px]">Finish</p>
-                  <p class="text-[#707070]">{{ product.metafields.custom.finish }}</p>
+            {% if product.metafields.custom.palate != blank %}
+              <div class="p-[16px] border-solid border-b-2 border-[#F1F1F1]">
+                <div class="flex gap-3 items-center">
+                  {% render 'icon-palate' %}
+                  <div>
+                    <p class="text-[18px]">Palate</p>
+                    <p class="text-[#707070] m-0">{{ product.metafields.custom.palate }}</p>
+                  </div>
                 </div>
               </div>
-            </div>
+            {% endif %}
+
+            {% if product.metafields.custom.finish != blank %}
+              <div class="p-[16px] ">
+                <div class="flex gap-3 items-center">
+                  {% render 'icon-finish' %}
+                  <div>
+                    <p class="text-[18px]">Finish</p>
+                    <p class="text-[#707070]">{{ product.metafields.custom.finish }}</p>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
           </div>
       {%- endcase -%}
     {%- endfor -%}
