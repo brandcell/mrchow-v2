@@ -1,7 +1,7 @@
 <div class="py-20 flex flex-col px-20 max-w-[1360px] m-auto justify-center">
   <h3 class="font-semibold self-center ">{{ section.settings.food_section_title }}</h3>
   <div class="flex flex-row justify-evenly flex-wrap">
-    {% if section.blocks != blank %}
+    {% if section.blocks %}
       {% for block in section.blocks %}
         <div class="food-card flex flex-col max-w-[280px] items-center">
           <div class="max-w-[200px]">
