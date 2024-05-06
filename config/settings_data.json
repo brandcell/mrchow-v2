@@ -308,7 +308,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".boost-sd__header-item {color: black !important;}"
+      ".boost-sd__header-item {color: white !important;}",
+      ".boost-sd__header-title{color: white !important;}"
     ]
   }
 }
