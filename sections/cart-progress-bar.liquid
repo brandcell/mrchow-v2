@@ -1,4 +1,3 @@
-
 {%- if cart.items.size > 0 -%}
   {{ 'cart-progress-bar.css' | asset_url | stylesheet_tag }}
 
@@ -6,47 +5,97 @@
   {%- assign next_threshold_title = '' -%}
   {%- assign cart_total = cart.total_price | divided_by: 100 -%}
   {%- assign to_reach = 0 -%}
+  {%- assign max_threshold_value = 0 -%}
 
   {%- for threshold in section.blocks -%}
     {%- if cart_total < threshold.settings.value -%}
       {%- assign next_threshold_value = threshold.settings.value -%}
       {%- assign next_threshold_title = threshold.settings.title -%}
       {%- assign to_reach = threshold.settings.value | minus: cart_total -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- for threshold in section.blocks -%}
+    {%- if max_threshold_value < threshold.settings.value -%}
+      {%- assign max_threshold_value = threshold.settings.value -%}
     {%- endif -%}
   {%- endfor -%}
 
   {%- assign progress_percent = 100 -%}
-  {%- if next_threshold_value != 0 -%}
-    {%- assign progress_percent = cart_total | times: 100 | divided_by: next_threshold_value -%}
+  {%- if max_threshold_value != 0 -%}
+    {%- assign progress_percent = cart_total | times: 100 | divided_by: max_threshold_value -%}
   {%- endif -%}
-  
+
   <div class="container--large container--vertical-space">
     <div id="cb-spb" class="upcart-rewards styles_TieredRewards__R03ai UpcartDesignSettings__cartTextColor">
       <div class="upcart-rewards-message">
         {%- if next_threshold_title != '' -%}
-          <p>You are <strong style="color:{{ section.settings.accented_text_color }}"><em><span id="cb-spb-left-to-next">{{ to_reach | times: 100 | money }}</span></em></strong> away from getting <strong style="color:{{ section.settings.accented_text_color }}"><em><span id="cb-spb-next-threshold">{{ next_threshold_title }}</span></em></strong></p>
+          <p>
+            You are
+            <strong style="color:{{ section.settings.accented_text_color }}"
+              ><em
+                ><span id="cb-spb-left-to-next">{{ to_reach | times: 100 | money }}</span></em
+              ></strong
+            >
+            away from getting
+            <strong style="color:{{ section.settings.accented_text_color }}"
+              ><em
+                ><span id="cb-spb-next-threshold">{{ next_threshold_title }}</span></em
+              ></strong
+            >
+          </p>
         {%- else -%}
-          <p>Congrats! You’re eligible for {% for threshold in section.blocks %}<strong style="color:{{ section.settings.accented_text_color }}"><em>{{ threshold.settings.title }}</em></strong>{% unless forloop.last %}, {% else %}.{% endunless %}{% endfor %}</p>
+          <p>
+            Congrats! You’re eligible for
+            {% for threshold in section.blocks -%}
+              <strong style="color:{{ section.settings.accented_text_color }}"
+                ><em>{{ threshold.settings.title }}</em></strong
+              >
+              {%- unless forloop.last %}, {% else %}.{% endunless -%}
+            {%- endfor %}
+          </p>
         {%- endif -%}
       </div>
-      <div class="upcart-rewards-bar-background styles_TieredRewards__progressBar__pZqU9" style="background-color: #d3d3d3">
-        <div class="cb-sbp-progress upcart-rewards-bar-foreground styles_Rewards__progressBar--progress__twb6x" style="background-color: {{ section.settings.bar_color }};width:{{ progress_percent }}%;" data-cart-total="{{ cart.total_price }}"></div>
+      <div
+        class="upcart-rewards-bar-background styles_TieredRewards__progressBar__pZqU9"
+        style="background-color: #d3d3d3"
+      >
+        <div
+          class="cb-sbp-progress upcart-rewards-bar-foreground styles_Rewards__progressBar--progress__twb6x"
+          style="background-color: {{ section.settings.bar_color }};width:{{ progress_percent }}%;"
+          data-cart-total="{{ cart.total_price }}"
+        ></div>
       </div>
       <div class="styles_TieredRewards__tiersContainer__ZMHzn">
-    
+        {%- assign previous_percent = 0 -%}
+        {%- assign minus_perc = 2 -%}
         {%- for threshold in section.blocks -%}
-          <div class="cb-sbp-threshold upcart-rewards-tier styles_TieredRewards__tierCircleAndDescription__AhLjz styles_TieredRewards__tierCircleAndDescription--exactlyCenter__8D9zz"
+          {%- assign threshold_value = threshold.settings.value | plus: 0.0 -%}
+          {%- assign threshold_percent = 100 -%}
+          {%- if threshold_value != 0 -%}
+            {%- assign threshold_percent = threshold_value | times: 100 | divided_by: max_threshold_value -%}
+          {%- endif -%}
+          {%- assign threshold_percent = threshold_percent | minus: previous_percent -%}
+          {%- assign minus_perc = minus_perc | times: forloop.index | times: 2.5 -%}
+          <div
+            class="cb-sbp-threshold upcart-rewards-tier styles_TieredRewards__tierCircleAndDescription__AhLjz styles_TieredRewards__tierCircleAndDescription--exactlyCenter__8D9zz"
             data-value="{{ threshold.settings.value }}"
+            style="position:relative;left:{{ threshold_percent | minus: 0 }}%;margin-left: -100px;"
+          >
+            <div
+              class="upcart-rewards-tier-circle styles_TieredRewards__tierCircle__9VXUI"
+              style="border: 1px solid #000; background-color: #fff;"
             >
-            <div class="upcart-rewards-tier-circle styles_TieredRewards__tierCircle__9VXUI" style="border: 1px solid #000; background-color: #fff;">
               <div class="upcart-rewards-tier-icon" style="width: 30px; height: 30px; margin: auto;">
-                <img src="{{ threshold.settings.icon | image_url }}" width="100%" height="100%" />
+                <img src="{{ threshold.settings.icon | image_url }}" width="100%" height="100%">
               </div>
             </div>
-            <div class="upcart-rewards-tier-description styles_rewardsDescription__osUyE">{{ threshold.settings.title }}</div>
+            <div class="upcart-rewards-tier-description styles_rewardsDescription__osUyE">
+              {{ threshold.settings.title }}
+            </div>
           </div>
         {%- endfor -%}
-        
       </div>
     </div>
   </div>
@@ -55,56 +104,56 @@
 {%- endif -%}
 
 {% schema %}
-	{
-    "name": "Cart Progress Bar",
-    "class": "cart-progress-bar",
-    "tag": "section",
-    "settings": [
-      {
-        "type": "color",
-        "id": "bar_color",
-        "label": "Progress bar color",
-        "default": "#EE3535"
-      },
-      {
-        "type": "color",
-        "id": "accented_text_color",
-        "label": "Accented text color",
-        "default": "#EE3535"
-      }
-	],
-    "blocks": [
-      {
-        "type": "threshold",
-        "name": "Threshold",
-        "limit": 3,
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Threshold name",
-            "default": "Threshold name"
-          },
-          {
-            "type": "image_picker",
-            "id": "icon",
-            "label": "Threshold icon"
-          },
-          {
-            "type": "number",
-            "id": "value",
-            "label": "Threshold value"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Cart Progress Bar"
-      }
-    ],
-    "disabled_on": {
-      "groups": ["header"]
+{
+  "name": "Cart Progress Bar",
+  "class": "cart-progress-bar",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bar_color",
+      "label": "Progress bar color",
+      "default": "#EE3535"
+    },
+    {
+      "type": "color",
+      "id": "accented_text_color",
+      "label": "Accented text color",
+      "default": "#EE3535"
     }
+  ],
+  "blocks": [
+    {
+      "type": "threshold",
+      "name": "Threshold",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Threshold name",
+          "default": "Threshold name"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Threshold icon"
+        },
+        {
+          "type": "number",
+          "id": "value",
+          "label": "Threshold value"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cart Progress Bar"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header"]
   }
+}
 {% endschema %}
