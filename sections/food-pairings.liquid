@@ -4,13 +4,17 @@
     {% if section.blocks %}
       {% for block in section.blocks %}
         <div class="food-card flex flex-col max-w-[280px] items-center">
-          <div class="max-w-[200px]">
-            <img class="w-full object-cover" src="{{block.settings.image | image_url }}" alt="">
-          </div>
+          {% comment %}
+            <div class="max-w-[200px]">
+              <img class="w-full object-cover" src="{{block.settings.image | image_url }}" alt="">
+            </div>
+          {% endcomment %}
 
-          <p class="text-[26px]">{{ block.settings.food_category }}</p>
+          {% comment %}
+            <p class="text-[26px]">{{ block.settings.food_category }}</p>
 
-          <p class="text-[16px] text-[#1D1D1D62]">{{ block.settings.explanation }}</p>
+            <p class="text-[16px] text-[#1D1D1D62]">{{ block.settings.explanation }}</p>
+          {% endcomment %}
         </div>
       {% endfor %}
 
@@ -40,21 +44,6 @@
           "type": "text",
           "id": "food_title",
           "label": "Title"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Upload Icon"
-        },
-        {
-          "type": "text",
-          "id": "food_category",
-          "label": "Category"
-        },
-        {
-          "type": "richtext",
-          "id": "explanation",
-          "label": "Explanation"
         }
       ]
     }
