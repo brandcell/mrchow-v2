@@ -116,7 +116,7 @@
         "food_pairing_VmE8wm": {
           "type": "food_pairing",
           "settings": {
-            "food_title": "{{ product.metafields.custom.food_pairings_title.value }}"
+            "food_title": ""
           }
         }
       },
