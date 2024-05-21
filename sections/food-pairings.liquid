@@ -4,6 +4,7 @@
     {% if section.blocks %}
       {% for block in section.blocks %}
         <div class="food-card flex flex-col max-w-[280px] items-center">
+          <p>{{ block.settings.food_title }}</p>
           {% comment %}
             <div class="max-w-[200px]">
               <img class="w-full object-cover" src="{{block.settings.image | image_url }}" alt="">
