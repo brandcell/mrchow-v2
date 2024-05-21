@@ -11,20 +11,24 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "judge_me_reviews_preview_badge_EmDmiw": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -35,7 +39,8 @@
         },
         "empty_space_1": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -49,11 +54,13 @@
         },
         "empty_space_2": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "empty_space_3": {
           "type": "space",
-          "settings": {}
+          "settings": {
+          }
         },
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0": {
           "type": "progress-dots",
@@ -104,22 +111,39 @@
       }
     },
     "food-pairings": {
-      "type": "food-pairings"
+      "type": "food-pairings",
+      "blocks": {
+        "food_pairing_VmE8wm": {
+          "type": "food_pairing",
+          "settings": {
+            "food_title": "{{ product.metafields.custom.food_pairings_title.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "food_pairing_VmE8wm"
+      ],
+      "settings": {
+        "food_section_title": "Food Pairings"
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "quick_buy": {
           "type": "quick_buy",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -143,7 +167,8 @@
       "blocks": {
         "judge_me_reviews_review_widget_AFG4jL": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
