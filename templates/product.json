@@ -82,6 +82,15 @@
           "settings": {
             "taste_chart_title": "Tasting Chart"
           }
+        },
+        "text_9X4VJV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Text block<\/p>{{ product.metafields.custom.food_pairings_name | metafield_tag }}",
+            "text_size": "text-size--regular",
+            "text_color": "#6A6A6A",
+            "text_transform": false
+          }
         }
       },
       "block_order": [
@@ -96,7 +105,8 @@
         "empty_space_2",
         "empty_space_3",
         "0d8f779e-8df4-43eb-918f-7eacba66ffc0",
-        "taste_chart"
+        "taste_chart",
+        "text_9X4VJV"
       ],
       "settings": {
         "gallery_style": "slider",
@@ -112,6 +122,18 @@
     },
     "food-pairings": {
       "type": "food-pairings",
+      "blocks": {
+        "food_pairing_7wtwah": {
+          "type": "food_pairing",
+          "disabled": true,
+          "settings": {
+            "food_array": ""
+          }
+        }
+      },
+      "block_order": [
+        "food_pairing_7wtwah"
+      ],
       "settings": {
         "food_section_title": "Food Pairings"
       }
