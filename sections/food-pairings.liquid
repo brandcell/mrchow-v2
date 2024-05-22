@@ -1,31 +1,90 @@
 {% comment %} {% assign food_pairing_metafields = product.metafields.custom %} {% endcomment %}
 
-<div class="py-20 flex flex-col px-20 max-w-[1360px] m-auto justify-center">
+<div class="py-20 flex flex-col px-4 max-w-[1360px] m-auto justify-center">
   <h3 class="font-semibold self-center ">{{ section.settings.food_section_title }}</h3>
-  <div class="flex flex-row justify-evenly flex-wrap">
-    {% if section.blocks %}
-      {% comment %} {% assign features = block.settings.food_array | split: ',' %} {% endcomment %}
 
-      <div class="food-card flex flex-col max-w-[280px] items-center">
-        {% for metafield in product.metafields.custom.food_pairings_name.value %}
-          <div class="food-pairing-item flex flex-col">
-            <p>{{ metafield.food_pairings_name.value }}</p>
-          </div>
-        {% endfor %}
-        {% comment %}
-        {% endcomment %}
+  {% comment %} {% if section.blocks %} {% endcomment %}
+  {% comment %} {% assign features = block.settings.food_array | split: ',' %} {% endcomment %}
+  {% if product.metafields.custom.food_pairings_name.value == blank %}
+    <p class="text-center">There are no food pairings to recommend with {{ product.title }} at this moment.</p>
 
-        {% comment %}
-          <p class="text-[26px]">{{ block.settings.food_category }}</p>
+  {% else %}
+    <div class="food-card flex justify-evenly items-start gap-6">
+      {% for item in product.metafields.custom.food_pairings_name.value %}
+        <div class="food-pairing-item flex flex-col items-center max-w-[280px]">
+          {% case item %}
+            {% when 'Soft Cheeses' %}
+              {{ images['Soft_cheeses.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+              {% assign description = 'pairs well because the high alcohol content and varied flavors in whisky can cut through the richness of cheeses like Brie and Camembert, cleansing the palate and preparing it for the next bite.
+            ' %}
 
-          <p class="text-[16px] text-[#1D1D1D62]">{{ block.settings.explanation }}</p>
-        {% endcomment %}
-      </div>
+            {% when 'Dark Chocolate' %}
+              {{ images['Dark_chocolate.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
 
-    {% else %}
-      <p>There are no food pairings at this moment.</p>
-    {% endif %}
-  </div>
+              {% assign description = 'has robust tannins and dark fruit flavors that complement the bitterness and richness of chocolate.' %}
+
+            {% when 'Fruit-based Desserts' %}
+              {{ images['Fruit-based_desserts.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+
+              {% assign description = 'has a rich, honeyed character that complements concentrated fruit flavors like berry and apple beautifully.' %}
+
+            {% when 'Barbecue/Grilled Meat' %}
+              {{ images['Barbecue_ribs.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+
+              {% assign description = 'sweet, woody notes align perfectly with the smoky flavor of BBQ ribs and grilled steaks' %}
+
+            {% when 'Asian Dishes' %}
+              {{ images['Spicy_Asian_Dish.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+
+              {% assign description = 'has a sweetness and acidity that works beautifully against the heat of spicy dishes from cuisines like Thai or Sichuan' %}
+
+            {% when 'Pasta With Cream Sauces' %}
+              {{ images['Cream_Sauce_Pasta.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+
+              {% assign description = 'has a lighter body yet flavorful profile, stands up well to the richness of cream-based sauces like alfredo and carbonara' %}
+
+            {% when 'Fried Foods' %}
+              {{ images['Fried_Food.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+
+              {% assign description = 'complements crispiness of fried foods like calamari and fried chicken with a smooth texture of the drink' %}
+
+            {% when 'Roast Meats' %}
+              {{ images['Roast_Duck.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+
+              {% assign description = 'goes down well with the crisp of roast pork or roast duck' %}
+
+            {% when 'Charcuterie' %}
+              {{ images['Charcuterie.webp'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+
+              {% assign description = 'is excellent with cured meats due to its robust flavors and tannins, which can stand up to the richness and saltiness of meats like salami or prosciutto.' %}
+
+            {% when 'Seafood' %}
+              {{ images['seafood.png'] | image_url: width: 200 | image_tag: widths: '150, 200' }}
+
+              {% assign description = 'complements freshness of seafood extremely well' %}
+
+            {% else %}
+
+          {% endcase %}
+
+          <p class="text-[22px]">{{ item }}</p>
+          <p>
+            {{ product.title }}
+            {{ description }}
+          </p>
+        </div>
+      {% endfor %}
+
+      {% comment %}
+      {% endcomment %}
+
+      {% comment %}
+        <p class="text-[26px]">{{ block.settings.food_category }}</p>
+
+        <p class="text-[16px] text-[#1D1D1D62]">{{ block.settings.explanation }}</p>
+      {% endcomment %}
+    </div>
+  {% endif %}
 </div>
 
 {% schema %}
