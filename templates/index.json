@@ -162,6 +162,19 @@
     "1654161920efe5f084": {
       "type": "text-columns-icons",
       "blocks": {
+        "1654161920f21316cf-2": {
+          "type": "image",
+          "settings": {
+            "icon": "alcohol-bottle",
+            "title": "Genuine Liquor",
+            "caption": "100% Authentic",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
         "1654161920f21316cf-0": {
           "type": "image",
           "settings": {
@@ -187,25 +200,12 @@
             "color_icons_main": "rgba(0,0,0,0)",
             "seo_h_tag": "h3"
           }
-        },
-        "1654161920f21316cf-2": {
-          "type": "image",
-          "settings": {
-            "icon": "alcohol-bottle",
-            "title": "Genuine Liquor",
-            "caption": "100% Authentic",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
         }
       },
       "block_order": [
+        "1654161920f21316cf-2",
         "1654161920f21316cf-0",
-        "1654161920f21316cf-1",
-        "1654161920f21316cf-2"
+        "1654161920f21316cf-1"
       ],
       "custom_css": [
         "h2 {font-family: PP Acma; font-weight: 600;}"
