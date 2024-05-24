@@ -30,11 +30,25 @@
             "color_text_main": "rgba(0,0,0,0)",
             "seo_h_tag": "h3"
           }
+        },
+        "image_9X7nWn": {
+          "type": "image",
+          "settings": {
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
         }
       },
       "block_order": [
         "1653646142fd3f3126-0",
-        "4184f522-a3cb-46db-b6a7-c65c9afc5da5"
+        "4184f522-a3cb-46db-b6a7-c65c9afc5da5",
+        "image_9X7nWn"
       ],
       "settings": {
         "desktop_height": "80vh",
