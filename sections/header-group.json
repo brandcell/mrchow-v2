@@ -148,11 +148,11 @@
           "type": "info",
           "disabled": true,
           "settings": {
-            "caption": "Bulk Buying",
-            "title": "About your brand",
-            "link": "",
+            "caption": "Have an Event?",
+            "title": "See What We Can Do",
+            "link": "shopify:\/\/pages\/event-planning",
             "link_type": "_self",
-            "icon": "no-icon"
+            "icon": "giftbox"
           }
         }
       },
