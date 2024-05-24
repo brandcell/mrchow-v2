@@ -7,7 +7,6 @@
       "blocks": {
         "image_RLxYej": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "title": "",
             "image": "shopify:\/\/shop_images\/MrChow_Horizontal_Black_Logo.webp",
@@ -18,16 +17,15 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "title": "Mr Chow",
+            "title": "",
             "size": "h4",
-            "content": "<p>Value alcohol, anytime, anywhere<\/p>",
+            "content": "<p><\/p><p>Keep in touch with us!<\/p>",
             "show_social_icons": true,
             "enable_follow_on_shop": true
           }
         },
         "menu-2": {
           "type": "menu",
-          "disabled": true,
           "settings": {
             "title": "Categories",
             "menu": "footer-menu-product-collections",
