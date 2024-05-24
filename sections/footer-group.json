@@ -27,6 +27,7 @@
         },
         "menu-2": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "title": "Categories",
             "menu": "footer-menu-product-collections",
