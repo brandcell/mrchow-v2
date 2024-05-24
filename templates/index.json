@@ -54,7 +54,7 @@
       "settings": {
         "desktop_height": "80vh",
         "mobile_height": "60vh",
-        "is_auto_height": false,
+        "is_auto_height": true,
         "autorotate_enable": false,
         "autorotate_interval": 5,
         "alignment": "horizontal-center align-content--vertical-middle",
