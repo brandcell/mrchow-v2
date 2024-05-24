@@ -14,14 +14,12 @@
             "open_in_new_window": false
           }
         },
-        "text-1": {
-          "type": "text",
+        "menu-1": {
+          "type": "menu",
           "settings": {
-            "title": "",
-            "size": "h4",
-            "content": "<p><\/p><p>Keep in touch with us!<\/p>",
-            "show_social_icons": true,
-            "enable_follow_on_shop": true
+            "title": "Information",
+            "menu": "footer",
+            "open_in_new_window": false
           }
         },
         "menu-2": {
@@ -30,6 +28,16 @@
             "title": "Categories",
             "menu": "footer-menu-product-collections",
             "open_in_new_window": false
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "size": "h4",
+            "content": "<p><\/p><p>Keep in touch with us!<\/p>",
+            "show_social_icons": true,
+            "enable_follow_on_shop": true
           }
         },
         "e20388d7-43ac-4a42-b27b-347dd47550f4": {
@@ -43,14 +51,6 @@
             "enable_follow_on_shop": true
           }
         },
-        "menu-1": {
-          "type": "menu",
-          "settings": {
-            "title": "Information",
-            "menu": "footer",
-            "open_in_new_window": false
-          }
-        },
         "3b67941e-5f7c-405a-93b1-31177f1c7103": {
           "type": "newsletter",
           "settings": {
@@ -61,14 +61,14 @@
       },
       "block_order": [
         "image_RLxYej",
-        "text-1",
-        "menu-2",
-        "e20388d7-43ac-4a42-b27b-347dd47550f4",
         "menu-1",
+        "menu-2",
+        "text-1",
+        "e20388d7-43ac-4a42-b27b-347dd47550f4",
         "3b67941e-5f7c-405a-93b1-31177f1c7103"
       ],
       "settings": {
-        "layout": "grid-4 grid-portable-2 grid-lap-1",
+        "layout": "grid-3 grid-lap-1",
         "show_locale_selector": true,
         "show_country_selector": true,
         "remove_margin": false,
