@@ -34,6 +34,7 @@
         "image_9X7nWn": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/c_payment_options.png",
             "caption": "Introducing",
             "title": "Your best promotion yet",
             "link": "",
