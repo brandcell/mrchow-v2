@@ -132,7 +132,7 @@
           "disabled": true,
           "settings": {
             "menu_handle": "event-planning",
-            "show_promotion_block": true,
+            "show_promotion_block": false,
             "promotion_title": "Great promotion",
             "promotion_title_size": "text-size--xlarge",
             "promotion_subtitle": "Write all about it",
@@ -146,7 +146,6 @@
         },
         "info_rAepQj": {
           "type": "info",
-          "disabled": true,
           "settings": {
             "caption": "Have an Event?",
             "title": "See What We Can Do",
