@@ -6,21 +6,7 @@
         "1653646142fd3f3126-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mrchow_FB_cover-02_3.jpg",
-            "caption": "",
-            "title": "",
-            "link": "",
-            "open_in_new_window": false,
-            "button_label": "",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "1653646142fd3f3126-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/auction_banner.jpg",
+            "image": "shopify:\/\/shop_images\/may_2024_mrchow_edmmrchow_2024_cny_edm_with_tnc.png",
             "caption": "",
             "title": "",
             "link": "",
@@ -48,7 +34,6 @@
       },
       "block_order": [
         "1653646142fd3f3126-0",
-        "1653646142fd3f3126-1",
         "4184f522-a3cb-46db-b6a7-c65c9afc5da5"
       ],
       "settings": {
