@@ -31,7 +31,7 @@
       "settings": {
         "enable_tags": true,
         "layout": "grid-3 grid-lap-1",
-        "post_limit": 6,
+        "post_limit": 8,
         "blog_show_image": true,
         "image_aspect_ratio": "1.33333"
       }
