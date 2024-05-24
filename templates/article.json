@@ -6,16 +6,24 @@
         "featured-image": {
           "type": "featured_image",
           "settings": {
+            "aspect_ratio": "1.33333",
+            "is_fullwidth": false
           }
         },
         "title": {
           "type": "title",
           "settings": {
+            "blog_show_date": true,
+            "blog_show_author": true,
+            "blog_show_comments": false
           }
         },
         "content": {
           "type": "content",
           "settings": {
+            "has_social_buttons": true,
+            "has_tags": true,
+            "enhance_product_links": false
           }
         }
       },
@@ -38,6 +46,9 @@
         "info": {
           "type": "info",
           "settings": {
+            "show_date": true,
+            "show_author": false,
+            "show_comments_number": false
           }
         }
       },
@@ -46,6 +57,11 @@
         "info"
       ],
       "settings": {
+        "title": "More articles",
+        "blog_show_image": true,
+        "image_aspect_ratio": "1.33333",
+        "blog_previous": "",
+        "blog_next": ""
       }
     },
     "main-article-comments": {
