@@ -39,9 +39,9 @@
           "type": "info",
           "settings": {
             "caption": "Same Day Delivery Available!",
-            "title": "More info on delivery",
-            "link": "",
-            "link_type": "_self",
+            "title": "See  all delivery options",
+            "link": "shopify:\/\/pages\/order-and-delivery",
+            "link_type": "_blank",
             "icon": "delivery"
           }
         },
@@ -129,6 +129,7 @@
         },
         "dafcdf5d-7880-46e6-b71a-f195c2ff7146": {
           "type": "mega-menu",
+          "disabled": true,
           "settings": {
             "menu_handle": "event-planning",
             "show_promotion_block": true,
@@ -142,6 +143,17 @@
             "promotion_color_txt": "#000000",
             "promotion_color_bg": "#f3f3f3"
           }
+        },
+        "info_rAepQj": {
+          "type": "info",
+          "disabled": true,
+          "settings": {
+            "caption": "Bulk Buying",
+            "title": "About your brand",
+            "link": "",
+            "link_type": "_self",
+            "icon": "no-icon"
+          }
         }
       },
       "block_order": [
@@ -152,7 +164,8 @@
         "aeb61b6a-898f-4f73-b674-ea23639bc0aa",
         "df308683-0cc4-447d-8d3c-d7986a940848",
         "a4d69399-3bb5-4564-9468-58bdebd719bc",
-        "dafcdf5d-7880-46e6-b71a-f195c2ff7146"
+        "dafcdf5d-7880-46e6-b71a-f195c2ff7146",
+        "info_rAepQj"
       ],
       "settings": {
         "logo_src": "shopify:\/\/shop_images\/MrChow_Horizontal_Black_Logo.webp",
