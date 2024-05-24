@@ -5,6 +5,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_RLxYej": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/MrChow_Horizontal_Black_Logo.webp",
+            "link": "",
+            "open_in_new_window": false
+          }
+        },
         "text-1": {
           "type": "text",
           "settings": {
@@ -45,11 +55,13 @@
         "3b67941e-5f7c-405a-93b1-31177f1c7103": {
           "type": "newsletter",
           "settings": {
-            "title": "Newsletter"
+            "title": "Newsletter",
+            "subtitle": "Subscribe our newsletter to get latest new about our new product and promo campaign."
           }
         }
       },
       "block_order": [
+        "image_RLxYej",
         "text-1",
         "menu-2",
         "e20388d7-43ac-4a42-b27b-347dd47550f4",

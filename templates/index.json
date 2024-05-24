@@ -684,6 +684,7 @@
       "blocks": {
         "71f015b3-c72b-4c0e-bebd-797bc0433be4": {
           "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "disabled": true,
           "settings": {
             "widgetId": "homepage-165121",
             "additional_classes": "",
@@ -694,7 +695,6 @@
       "block_order": [
         "71f015b3-c72b-4c0e-bebd-797bc0433be4"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "remove_margin": false
@@ -763,6 +763,7 @@
         "image_xDcBBA",
         "image_ph9LkJ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",
