@@ -266,6 +266,25 @@
             "seo_h_tag": "h3"
           }
         },
+        "card_nQcXcU": {
+          "type": "card",
+          "settings": {
+            "caption": "Introducing",
+            "title": "Your best promotion yet",
+            "subtitle": "Write about it",
+            "link": "shopify:\/\/collections\/for-business",
+            "open_in_new_window": false,
+            "button_label": "Show more",
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": false,
+            "color_hide_shadow": false,
+            "seo_h_tag": "h3"
+          }
+        },
         "card_XQ7JBU": {
           "type": "card",
           "settings": {
@@ -290,6 +309,7 @@
       "block_order": [
         "card_aX6ewA",
         "card_JQUAey",
+        "card_nQcXcU",
         "card_XQ7JBU"
       ],
       "custom_css": [
