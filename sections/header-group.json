@@ -19,7 +19,7 @@
       ],
       "settings": {
         "visibility": "all",
-        "show_locale_selector": true,
+        "show_locale_selector": false,
         "show_country_selector": true,
         "show_social_icons": true,
         "bar_bgcolor": "#ee3535",
