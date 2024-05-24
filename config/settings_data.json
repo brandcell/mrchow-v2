@@ -255,31 +255,6 @@
         "settings": {
         }
       },
-      "9468172321995857178": {
-        "type": "shopify:\/\/apps\/qikify-upsell-bundle\/blocks\/app-embed\/2e94b962-8172-4839-8ad9-7837eb8b017a",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "6810535121229352664": {
-        "type": "shopify:\/\/apps\/monster-cart-upsell-free-gifts\/blocks\/app-embed\/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
-        "disabled": true,
-        "settings": {
-          "markets_rounding": false,
-          "send_gtag_atc": false,
-          "disable_tiktok_tracking": false,
-          "disable_klaviyo_tracking": false,
-          "stop_cart_page": false,
-          "apply_discount_before_checkout": false,
-          "bag_selector": "",
-          "hide_when_opened": "",
-          "show_item_properties": false,
-          "stop_shopify_rate": false,
-          "dev_mode": false,
-          "beta_version": false,
-          "custom_code": "<script>\n    \/\/ custom code here\n<\/script>"
-        }
-      },
       "14198427981142892921": {
         "type": "shopify:\/\/apps\/wishlist-engine\/blocks\/app-embed\/8f7c0857-8e71-463d-a168-8e133094753b",
         "disabled": true,
@@ -303,6 +278,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "4275615285897611771": {
+        "type": "shopify:\/\/apps\/fera\/blocks\/embed\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
@@ -310,7 +291,7 @@
     "custom_css": [
       ".boost-sd__header-item {color: white !important;}",
       ".boost-sd__header-title {color: white !important;}",
-      ".boost-sd__header-description{color: white !important; }"
+      ".boost-sd__header-description {color: white !important;}"
     ]
   }
 }
