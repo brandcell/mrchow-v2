@@ -1,0 +1,169 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "center": false
+      }
+    },
+    "e54e6f72-8c89-47a9-b63f-98888a53ec18": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17171074941143__e54e6f72-8c89-47a9-b63f-98888a53ec18-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Who is Mr Chow?",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "template--17171074941143__e54e6f72-8c89-47a9-b63f-98888a53ec18-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The perfect man has a big bright smile, wears a black cap, a round-framed sunnies, and a sleek black suit, contrasted with a white tee underneath.<\/p><p>The perfect man should also be CHOW YUM DAK and can show us the world of the best, genuine liquor with low prices and where to get them!<\/p><p>This perfect man is… Mr.Chow!<\/p><p>Yes! Mr.Chow is the perfect man to go to when you want to enjoy premium liquor at low prices. Choose from a selection of brands such as Glenfiddich, Absolut, Hennessy, etc. Not to mention, Mr.Chow also gives perfect customer service.<\/p><p>A perfect man is hard to find. Are you sure you want to let go?<\/p>",
+            "text_size": "regular"
+          }
+        },
+        "template--17171074941143__e54e6f72-8c89-47a9-b63f-98888a53ec18-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "template--17171074941143__e54e6f72-8c89-47a9-b63f-98888a53ec18-title-1",
+        "template--17171074941143__e54e6f72-8c89-47a9-b63f-98888a53ec18-text-1",
+        "template--17171074941143__e54e6f72-8c89-47a9-b63f-98888a53ec18-button-1"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    },
+    "9ebb53fe-e211-4e2b-b34e-aa0de3be226c": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "1654161920f21316cf-0": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "title": "Free Delivery",
+            "caption": "For orders above RM450",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "1654161920f21316cf-1": {
+          "type": "image",
+          "settings": {
+            "icon": "wallet",
+            "title": "Value Prices",
+            "caption": "Drinking doesn't have to break your wallet",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "1654161920f21316cf-2": {
+          "type": "image",
+          "settings": {
+            "icon": "alcohol-bottle",
+            "title": "Genuine Liquor",
+            "caption": "100% Authentic",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "1654161920f21316cf-0",
+        "1654161920f21316cf-1",
+        "1654161920f21316cf-2"
+      ],
+      "settings": {
+        "heading": "What We Offer",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17171074941143__09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "What We Do",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "template--17171074941143__09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Supplying quality alcohol for any occasion is our #1 expertise. Alcohol for small scale and large scale events according to your needs. Whether it’s parties, weddings, small gatherings, corporate events, or for your indulgence, our dedicated team of employees will ensure you are well-stocked for the day. No alcohol?! Cannot lah!<\/p><p>Wherever you are in West Malaysia, talk to us for quality, genuine liquor. If you ask for the best, you’ll get the best.<\/p><p>Contact us at <a href=\"https:\/\/wa.me\/60169562840\" target=\"_blank\">+6016 9562 840<\/a> (Joyce) or email <a href=\"mailto:support@mrchowliquorstore.com\">support@mrchowliquorstore.com<\/a> to learn more about our products and how we can keep you well supplied.<\/p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--17171074941143__09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c-title-1",
+        "template--17171074941143__09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c-text-1"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": false,
+        "color_hide_shadow": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e54e6f72-8c89-47a9-b63f-98888a53ec18",
+    "9ebb53fe-e211-4e2b-b34e-aa0de3be226c",
+    "09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c"
+  ]
+}
