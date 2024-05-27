@@ -28,6 +28,7 @@
       "block_order": [
         "template--17201873453271__145e7507-4f95-4bba-8331-03f6f472dbe0-product-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",
@@ -58,7 +59,7 @@
         "text_adREfR": {
           "type": "text",
           "settings": {
-            "text": "<h2>Delive<\/h2>",
+            "text": "<h3>FAQs<\/h3>",
             "text_size": "regular"
           }
         },
@@ -79,7 +80,7 @@
         "height": "regular",
         "image_crop": true,
         "text_alignment": "horizontal-left",
-        "is_fullwidth": false,
+        "is_fullwidth": true,
         "section_background_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "color_background_main": "rgba(0,0,0,0)",
