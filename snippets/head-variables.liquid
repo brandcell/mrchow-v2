@@ -1,11 +1,11 @@
 {% comment %} {%- assign headings_font = settings.headings_font -%} {% endcomment %}
 {%- assign body_font = settings.body_font -%}
 
-{% comment %}
-  {%- unless headings_font.system? -%}
-    <link rel="preload" href="{{ headings_font | font_url }}" as="font" type="font/woff2" crossorigin>
-  {%- endunless -%}
-{% endcomment %}
+{%- unless headings_font.system? -%}
+  <link rel="preload" href="{{'PPAcma-Black.woff2' | font_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{'PPAcma-Semibold.woff2' | font_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{'PPAcma-Light.woff2' | font_url }}" as="font" type="font/woff2" crossorigin>
+{%- endunless -%}
 
 {%- unless body_font.system? -%}
   <link rel="preload" href="{{ body_font | font_url }}" as="font" type="font/woff2" crossorigin>
@@ -147,7 +147,7 @@
     /* Font variables */
 
     --font-stack-headings: "PP Acma";
-    --font-weight-headings: 800;
+    --font-weight-headings: 600;
     --font-style-headings: normal;
 
     --font-stack-body: {{ body_font.family }}, {{ body_font.fallback_families }};
