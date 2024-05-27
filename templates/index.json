@@ -789,7 +789,7 @@
         "facebook_reviews_carousel_widget_block_DEXBj9": {
           "type": "shopify:\/\/apps\/facebook-reviews\/blocks\/carousel-widget-block\/c02f66d0-13a2-4919-b3ed-c6efb126dba2",
           "settings": {
-            "themeId": "light",
+            "themeId": "dark",
             "autoscroll": true,
             "showRating": true
           }
