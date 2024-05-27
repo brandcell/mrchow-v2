@@ -6,9 +6,6 @@
         "center": false
       }
     },
-    "how-to-join-section": {
-      "type": "referral-how-to-join"
-    },
     "145e7507-4f95-4bba-8331-03f6f472dbe0": {
       "type": "image-with-hotspots",
       "blocks": {
@@ -41,116 +38,15 @@
         "seo_h_tag": "h3"
       }
     },
-    "9ebb53fe-e211-4e2b-b34e-aa0de3be226c": {
-      "type": "text-columns-icons",
-      "blocks": {
-        "1654161920f21316cf-0": {
-          "type": "image",
-          "settings": {
-            "icon": "delivery",
-            "image": "shopify:\/\/shop_images\/friend_Step_1.png",
-            "title": "Step 1",
-            "caption": "When you refer a friend, they will receive an RM25 voucher automatically.",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "1654161920f21316cf-1": {
-          "type": "image",
-          "settings": {
-            "icon": "wallet",
-            "image": "shopify:\/\/shop_images\/friend_step_2.png",
-            "title": "Step 2",
-            "caption": "You will receive a 3%, 4%, or 5% discount voucher, based on the number of friends you referred.",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "1654161920f21316cf-2": {
-          "type": "image",
-          "settings": {
-            "icon": "alcohol-bottle",
-            "image": "shopify:\/\/shop_images\/friend_step_3.png",
-            "title": "Step 3",
-            "caption": "What’s amazing about our referral program? You may use the discount voucher on top of our current promotions. More discounts, more booze!",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "1654161920f21316cf-0",
-        "1654161920f21316cf-1",
-        "1654161920f21316cf-2"
-      ],
+    "how-to-join-section": {
+      "type": "referral-how-to-join",
       "settings": {
-        "heading": "How to Join",
-        "subheading": "",
-        "section_heading_layout": "section-heading--center",
-        "style": "slider",
-        "layout": "grid-3 grid-lap-2",
-        "border_radius": 200,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17171074941143__09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c-title-1": {
-          "type": "title",
-          "settings": {
-            "title": "Terms and Conditions",
-            "title_size": "h3",
-            "seo_h_tag": "h2"
-          }
-        },
-        "template--17171074941143__09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><\/p><h5><strong>Eligibility<\/strong><\/h5><p><strong>Open to all registered Mr. Chow customers who are of legal drinking age.<\/strong><\/p><p><strong>Customers must have a valid Mr. Chow account.<\/strong><\/p><h5><strong>Campaign Period<\/strong><\/h5><p><strong>The campaign starts on 3rd October 2023.<\/strong><\/p><h5><strong>Referral Process<\/strong><\/h5><p><strong>To refer a friend, customers must log in to their account and find their unique referral code in their account dashboard.<\/strong><\/p><p><strong>Referred friends must make a purchase using the unique referral code to qualify.<\/strong><\/p><p><strong>Referral codes are valid only during the campaign period.<\/strong><\/p><h5><strong>Discount Mechanism<\/strong><\/h5><p><strong>Customers are able to refer as many friends as they want.<\/strong><\/p><p><strong>The referred friend can get RM25 off their purchase with a minimum purchase of RM300.<\/strong><\/p><p><strong>As for the customer, when a referred friend makes a purchase, the customer will receive a discount code for the referral.<\/strong><\/p><p><strong>Tier 1:<br\/>For the first 2 referrals that successfully make a purchase, the customer will receive a 3% discount promo code with no minimum purchase requirement, capped at RM200.<br\/><br\/>Tier 2:<br\/>For the 3rd and 4th referrals that successfully make a purchase, the customer will receive a 4% discount promo code with no minimum purchase requirement, capped at RM200.<br\/><br\/>Tier 3:<br\/>For the 5th referral onwards that successfully make a purchase, the customer will receive a 5% discount promo code with no minimum purchase requirement, capped at RM200.<\/strong><\/p><h5><strong>Discount Redemption<\/strong><\/h5><p><strong>Discounts earned through referrals will be automatically applied to the customer’s next eligible purchase.<\/strong><\/p><p><strong>Discounts cannot be redeemed for cash or transferred to other accounts.<\/strong><\/p><h5><strong>Validity Period<\/strong><\/h5><p><strong>The discount vouchers earned through referrals will only be valid for 100 days upon receiving the email containing the voucher code.<\/strong><\/p><p><strong>By participating in this campaign, customers agree to abide by these Terms and Conditions.<\/strong><\/p>",
-            "text_size": "regular"
-          }
-        }
-      },
-      "block_order": [
-        "template--17171074941143__09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c-title-1",
-        "template--17171074941143__09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c-text-1"
-      ],
-      "settings": {
-        "image_position": "top no-image",
-        "height": "regular",
-        "image_crop": true,
-        "text_alignment": "horizontal-left",
-        "is_fullwidth": false,
-        "section_background_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false
       }
     }
   },
   "order": [
     "main",
-    "how-to-join-section",
     "145e7507-4f95-4bba-8331-03f6f472dbe0",
-    "9ebb53fe-e211-4e2b-b34e-aa0de3be226c",
-    "09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c"
+    "how-to-join-section"
   ]
 }
