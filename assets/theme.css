@@ -2590,3 +2590,8 @@ html[dir="ltr"] .svg-placeholder.svg-placeholder--background {
   padding: 50px 50px !important;
   max-width: auto !important;
 }
+
+.description-wrapper {
+  text-align: center;
+  padding: 30px 40px;
+}

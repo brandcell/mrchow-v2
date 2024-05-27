@@ -6,6 +6,9 @@
         "center": false
       }
     },
+    "how-to-join-section": {
+      "type": "referral-how-to-join"
+    },
     "145e7507-4f95-4bba-8331-03f6f472dbe0": {
       "type": "image-with-hotspots",
       "blocks": {
@@ -145,6 +148,7 @@
   },
   "order": [
     "main",
+    "how-to-join-section",
     "145e7507-4f95-4bba-8331-03f6f472dbe0",
     "9ebb53fe-e211-4e2b-b34e-aa0de3be226c",
     "09bcd935-5b4e-4d0b-bd81-3244ec4d6f1c"
