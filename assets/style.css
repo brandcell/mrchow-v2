@@ -876,6 +876,10 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -906,6 +910,10 @@ video {
 
 .text-\[24px\] {
   font-size: 24px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
 }
 
 .font-semibold {
@@ -1001,6 +1009,10 @@ video {
 
   .lg\:py-20 {
     padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:pb-20 {
     padding-bottom: 5rem;
   }
 }
