@@ -41,7 +41,8 @@
     "09fbf16c-ebf4-4867-bb50-97e51a4cc8d8": {
       "type": "custom-liquid",
       "custom_css": [
-        "table,th,tr,td {border: solid 1px black; padding: 8px;}"
+        "table,th,tr,td {border: solid 1px black; padding: 8px;}",
+        "table {max-width: 800px;}"
       ],
       "settings": {
         "custom_liquid": "<table class=\"table table-bordered text-left\">\n                <thead>\n                    <tr>\n                       <th colspan=\"4\" class=\"text-center\">Free delivery for order over RM450 within Peninsular Malaysia<\/th> \n                    <\/tr>\n                    <tr>\n                        <th>Delivery Option<\/th>\n                        <th>Location<\/th>\n                        <th>Charges Applicable<\/th>\n                        <th>Delivery Details<\/th>\n                    <\/tr>\n                <\/thead>\n                <tbody>\n                    <tr>\n                        <td rowspan=\"2\">Standard Delivery<\/td>\n                        <td>Within Klang Valley<\/td>\n                        <td><strong>RM20 Flat Rate<\/strong><\/td>\n                        <td rowspan=\"2\">Arrival within 2-5 working days. (Tracking number will be provided via WhatsApp once posted)<\/td>\n                    <\/tr>\n                    <tr>\n                        <td>Beyond Klang Valley<\/td>\n                        <td><strong>RM30 Flat Rate<\/strong><\/td>\n                    <\/tr>\n                    <tr>\n                        <td>Express Delivery<\/td>\n                        <td>Within Klang Valley<\/td>\n                        <td><strong>RM40 Flat Rate<\/strong><\/td>\n                        <td>Same-Day Delivery Order must be placed before 4pm, arrival by Monday to Sunday 11am - 6pm. (Please notify customer service and we will proceed accordingly)<\/td>\n                    <\/tr>\n                <\/tbody>\n            <\/table>",
