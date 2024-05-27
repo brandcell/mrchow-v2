@@ -116,7 +116,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <noscript>
       <link rel="stylesheet" href="{{ 'theme-noscript.css' | asset_url }}">
     </noscript>
-  </head>
+  {% include 'pagefly-app-header' %}</head>
 
   <body
     id="{{ page_title | handle }}"
