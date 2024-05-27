@@ -1,11 +1,11 @@
 {% comment %} {%- assign headings_font = settings.headings_font -%} {% endcomment %}
 {%- assign body_font = settings.body_font -%}
 
-{%- unless headings_font.system? -%}
-  <link rel="preload" href="{{'PPAcma-Black.woff2' | font_url }}" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{'PPAcma-Semibold.woff2' | font_url }}" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="{{'PPAcma-Light.woff2' | font_url }}" as="font" type="font/woff2" crossorigin>
-{%- endunless -%}
+{% comment %} {%- unless headings_font.system? -%} {% endcomment %}
+<link rel="preload" href="{{'PPAcma-Black.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{'PPAcma-Semibold.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{'PPAcma-Light.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin="anonymous">
+{% comment %} {%- endunless -%} {% endcomment %}
 
 {%- unless body_font.system? -%}
   <link rel="preload" href="{{ body_font | font_url }}" as="font" type="font/woff2" crossorigin>
@@ -14,9 +14,10 @@
 <style type="text/css">
   @font-face {
     font-family: "PP Acma";
-    src: url("PPAcma-Black.woff2") format("woff2"),
-      url("PPAcma-Semibold.woff2") format("woff2"),
-      url("PPAcma-Light.woff2") format("woff2");
+    src: url('{{ 'PPAcma-Black.woff2' | asset_url }}') format('woff2');
+      /* url("PPAcma-Semibold.woff2") format("woff2"),
+      url("PPAcma-Light.woff2") format("woff2"); */
+      font-display: swap;
   }
 
 
