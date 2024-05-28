@@ -115,16 +115,17 @@
           "type": "mega-menu",
           "settings": {
             "menu_handle": "sale",
-            "show_promotion_block": false,
+            "show_promotion_block": true,
             "promotion_title": "Great promotion",
             "promotion_title_size": "text-size--xlarge",
             "promotion_subtitle": "Write all about it",
             "promotion_subtitle_size": "text-size--regular",
             "promotion_button_label": "",
             "promotion_button_size": "regular",
-            "promotion_button_link": "",
+            "promotion_button_link": "shopify:\/\/collections\/parties",
             "promotion_color_txt": "#000000",
-            "promotion_color_bg": "#f3f3f3"
+            "promotion_color_bg": "#f3f3f3",
+            "promotion_image": "shopify:\/\/shop_images\/May_Cover_1.png"
           }
         },
         "dafcdf5d-7880-46e6-b71a-f195c2ff7146": {
