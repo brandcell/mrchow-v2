@@ -116,10 +116,10 @@
           "settings": {
             "menu_handle": "sale",
             "show_promotion_block": true,
-            "promotion_title": "Great promotion",
+            "promotion_title": "",
             "promotion_title_size": "text-size--large",
-            "promotion_subtitle": "Write all about it",
-            "promotion_subtitle_size": "text-size--regular",
+            "promotion_subtitle": "",
+            "promotion_subtitle_size": "text-size--small",
             "promotion_button_label": "Mother's Day Deal",
             "promotion_button_size": "regular",
             "promotion_button_link": "shopify:\/\/collections\/parties",
