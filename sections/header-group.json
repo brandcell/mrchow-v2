@@ -50,8 +50,8 @@
           "settings": {
             "menu_handle": "spirits",
             "show_promotion_block": true,
-            "promotion_title": "Featured - Ardbeg Bundles",
-            "promotion_title_size": "text-size--xlarge",
+            "promotion_title": "Ardbeg Promo",
+            "promotion_title_size": "text-size--large",
             "promotion_subtitle": "",
             "promotion_subtitle_size": "text-size--regular",
             "promotion_button_label": "Shop Deal",
