@@ -66,7 +66,7 @@
           "type": "mega-menu",
           "settings": {
             "menu_handle": "",
-            "show_promotion_block": false,
+            "show_promotion_block": true,
             "promotion_title": "Great promotion",
             "promotion_title_size": "text-size--xlarge",
             "promotion_subtitle": "Write all about it",
@@ -83,16 +83,16 @@
           "settings": {
             "menu_handle": "wine",
             "show_promotion_block": true,
-            "promotion_title": "Great promotion",
+            "promotion_title": "",
             "promotion_title_size": "text-size--xlarge",
-            "promotion_subtitle": "Write all about it",
+            "promotion_subtitle": "",
             "promotion_subtitle_size": "text-size--regular",
-            "promotion_button_label": "",
+            "promotion_button_label": "Shop House Red",
             "promotion_button_size": "regular",
             "promotion_button_link": "shopify:\/\/collections",
             "promotion_color_txt": "#000000",
             "promotion_color_bg": "#f3f3f3",
-            "promotion_image": "shopify:\/\/shop_images\/LaphroaigSelectCaskIslaySingleMalt.jpg"
+            "promotion_image": "shopify:\/\/shop_images\/chateau-rousseau-cuvee-tradition-bordeaux-rouge.jpg"
           }
         },
         "df308683-0cc4-447d-8d3c-d7986a940848": {
