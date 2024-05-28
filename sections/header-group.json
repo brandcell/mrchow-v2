@@ -54,7 +54,7 @@
             "promotion_title_size": "text-size--xlarge",
             "promotion_subtitle": "",
             "promotion_subtitle_size": "text-size--regular",
-            "promotion_button_label": "",
+            "promotion_button_label": "Shop Deal",
             "promotion_button_size": "regular",
             "promotion_button_link": "shopify:\/\/products\/ardbeg-the-three-monsters-of-smoke-trio-pack-3x200ml",
             "promotion_color_txt": "#000000",
