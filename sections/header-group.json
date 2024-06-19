@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "t:sections.refactor_words.labels.header_group",
@@ -169,7 +178,7 @@
       ],
       "settings": {
         "logo_src": "shopify:\/\/shop_images\/MrChow_Horizontal_Black_Logo.webp",
-        "logo_height": 88,
+        "logo_height": 76,
         "main_linklist": "main-menu",
         "show_search": true,
         "sticky_header": true,
