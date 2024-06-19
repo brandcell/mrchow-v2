@@ -169,7 +169,7 @@
       ],
       "settings": {
         "logo_src": "shopify:\/\/shop_images\/MrChow_Horizontal_Black_Logo.webp",
-        "logo_height": 88,
+        "logo_height": 76,
         "main_linklist": "main-menu",
         "show_search": true,
         "sticky_header": true,
