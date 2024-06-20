@@ -5,6 +5,7 @@
 {% comment %} <link rel="preload" href="{{'PPAcma-Black.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin> {% endcomment %}
 <link rel="preload" href="{{'PPAcma-Black.otf' | asset_url }}" as="font" type="font/otf" crossorigin>
 <link rel="preload" href="{{'PPAcma-Black.woff' | asset_url }}" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="{{'PPAcma-Black.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
 {% comment %}
   <link rel="preload" href="{{'PPAcma-Semibold.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{'PPAcma-Light.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin="anonymous">
@@ -19,7 +20,8 @@
   @font-face {
     font-family: "PP Acma";
     src: url('PPAcma-Black.woff') format('woff'),
-     url('PPAcma-Black.otf') format('opentype');
+     url('PPAcma-Black.otf') format('opentype'),
+     url('PPAcma-Black.woff2') format('woff2')
       /* url("PPAcma-Semibold.woff2") format("woff2"),
 
       url("PPAcma-Light.woff2") format("woff2"); */
