@@ -17,157 +17,163 @@
 {%- endunless -%}
 
 <style type="text/css">
+    @font-face {
+      font-family: 'PP Acma';
+      src: url('PPAcma-Semibold.woff2') format('woff2'),
+          url('PPAcma-Semibold.woff') format('woff');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+  }
+
   @font-face {
-    font-family: 'PP Acma Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('PP Acma Thin'), url('./PPAcma-Thin.woff') format('woff');
-    }
+      font-family: 'PP Acma';
+      src: url('PPAcma-Black.woff2') format('woff2'),
+          url('PPAcma-Black.woff') format('woff');
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+  }
 
+  @font-face {
+      font-family: 'PP Acma';
+      src: url('PPAcma-Thin.woff2') format('woff2'),
+          url('PPAcma-Thin.woff') format('woff');
+      font-weight: 100;
+      font-style: normal;
+      font-display: swap;
+  }
 
-    @font-face {
-    font-family: 'PP Acma Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('PP Acma Light'), url('./PPAcma-Light.woff') format('woff');
-    }
-
-
-    @font-face {
-    font-family: 'PP Acma Semibold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('PP Acma Semibold'), url('./PPAcma-Semibold.woff') format('woff');
-    }
-
-
-    @font-face {
-    font-family: 'PP Acma Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('PP Acma Black'), url('./PPAcma-Black.woff') format('woff');
-    }
+  @font-face {
+      font-family: 'PP Acma';
+      src: url('PPAcma-Light.woff2') format('woff2'),
+          url('PPAcma-Light.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+  }
 
 
 
 
-    {%- comment -%} Fonts   /* echo headings_font | font_face: font_display: 'swap' */{%- endcomment -%}
-    {%- liquid
+
+      {%- comment -%} Fonts   /* echo headings_font | font_face: font_display: 'swap' */{%- endcomment -%}
+      {%- liquid
 
 
-      echo body_font | font_face: font_display: 'swap'
-      assign body_font_bold = body_font | font_modify: 'weight', '+100'
+        echo body_font | font_face: font_display: 'swap'
+        assign body_font_bold = body_font | font_modify: 'weight', '+100'
 
-      if body_font_bold == blank
-        assign body_font_bold = body_font | font_modify: 'weight', '700'
-      endif
-      echo body_font_bold | font_face: font_display: 'swap'
+        if body_font_bold == blank
+          assign body_font_bold = body_font | font_modify: 'weight', '700'
+        endif
+        echo body_font_bold | font_face: font_display: 'swap'
 
-      assign body_font_italic = body_font | font_modify: 'style', 'italic'
-      if body_font_italic
-        echo body_font_italic | font_face: font_display: 'swap'
-      endif
-
-
-    -%}
-
-    {%- comment -%} Header Colors {% endcomment %}
-    {%- liquid
-
-      assign color_background_header = settings.color_background_header
-      assign color_text_header = settings.color_text_header
-      assign color_accent_header = settings.color_accent_header
-
-      assign brightness_text_header = color_text_header | color_brightness
-      if brightness_text_header > 150
-        assign color_foreground_header = '#000'
-      else
-        assign color_foreground_header = '#fff'
-      endif
-
-      assign brightness_accent_header = color_accent_header | color_brightness
-      if brightness_accent_header > 150
-        assign color_foreground_accent_header = '#000'
-      else
-        assign color_foreground_accent_header = '#fff'
-      endif
-
-      assign color_borders_header = color_text_header | color_modify: 'alpha', 0.1
-      assign color_secondary_background_header = color_text_header | color_modify: 'alpha', 0.08
-      assign color_opacity_background_header = color_background_header | color_modify: 'alpha', 0
+        assign body_font_italic = body_font | font_modify: 'style', 'italic'
+        if body_font_italic
+          echo body_font_italic | font_face: font_display: 'swap'
+        endif
 
 
-    -%}
+      -%}
 
-    {%- comment -%} Card colors {% endcomment %}
-    {%- liquid
+      {%- comment -%} Header Colors {% endcomment %}
+      {%- liquid
 
-      assign color_background_cards = settings.color_background_cards
-      assign color_text_cards = settings.color_text_cards
-      assign color_accent_cards = settings.color_accent_cards
+        assign color_background_header = settings.color_background_header
+        assign color_text_header = settings.color_text_header
+        assign color_accent_header = settings.color_accent_header
 
-      assign brightness_accent_cards = color_accent_cards | color_brightness
-      if brightness_accent_cards > 150
-        assign color_foreground_accent_cards = '#000'
-      else
-        assign color_foreground_accent_cards = '#fff'
-      endif
+        assign brightness_text_header = color_text_header | color_brightness
+        if brightness_text_header > 150
+          assign color_foreground_header = '#000'
+        else
+          assign color_foreground_header = '#fff'
+        endif
 
-      assign brightness_text_cards = color_text_cards | color_brightness
-      if brightness_text_cards > 150
-        assign color_foreground_cards = '#000'
-      else
-        assign color_foreground_cards = '#fff'
-      endif
+        assign brightness_accent_header = color_accent_header | color_brightness
+        if brightness_accent_header > 150
+          assign color_foreground_accent_header = '#000'
+        else
+          assign color_foreground_accent_header = '#fff'
+        endif
 
-      assign color_borders_cards = settings.color_borders_cards
-      assign color_secondary_text_cards = color_text_cards | color_modify: 'alpha', 0.6
+        assign color_borders_header = color_text_header | color_modify: 'alpha', 0.1
+        assign color_secondary_background_header = color_text_header | color_modify: 'alpha', 0.08
+        assign color_opacity_background_header = color_background_header | color_modify: 'alpha', 0
 
-    -%}
 
-    {%- comment -%} Footer Colors {% endcomment %}
-    {%- liquid
+      -%}
 
-      assign color_background_footer = settings.color_background_footer
-      assign color_text_footer = settings.color_text_footer
-      assign color_accent_footer = settings.color_accent_footer
-      assign color_borders_footer = color_text_footer | color_modify: 'alpha', 0.15
+      {%- comment -%} Card colors {% endcomment %}
+      {%- liquid
 
-    -%}
+        assign color_background_cards = settings.color_background_cards
+        assign color_text_cards = settings.color_text_cards
+        assign color_accent_cards = settings.color_accent_cards
 
-    {%- comment -%} Main Colors {% endcomment %}
-    {%- liquid
+        assign brightness_accent_cards = color_accent_cards | color_brightness
+        if brightness_accent_cards > 150
+          assign color_foreground_accent_cards = '#000'
+        else
+          assign color_foreground_accent_cards = '#fff'
+        endif
 
-      assign color_background_main = settings.color_background_main
-      assign color_text_main = settings.color_text_main
-      assign color_accent_main = settings.color_accent_main
+        assign brightness_text_cards = color_text_cards | color_brightness
+        if brightness_text_cards > 150
+          assign color_foreground_cards = '#000'
+        else
+          assign color_foreground_cards = '#fff'
+        endif
 
-      assign brightness_accent_main = color_accent_main | color_brightness
-      if brightness_accent_main > 150
-        assign color_foreground_accent_main = '#000'
-      else
-        assign color_foreground_accent_main = '#fff'
-      endif
+        assign color_borders_cards = settings.color_borders_cards
+        assign color_secondary_text_cards = color_text_cards | color_modify: 'alpha', 0.6
 
-      assign brightness_text_main = color_text_main | color_brightness
-      if brightness_text_main > 150
-        assign color_foreground_main = '#000'
-      else
-        assign color_foreground_main = '#fff'
-      endif
+      -%}
 
-      assign color_borders_main = color_text_main | color_modify: 'alpha', 0.15
-      assign color_secondary_background_main = color_text_main | color_modify: 'alpha', 0.08
-      assign color_third_background_main = color_text_main | color_modify: 'alpha', 0.04
-      assign color_fourth_background_main = color_text_main | color_modify: 'alpha', 0.02
-      assign color_secondary_text_main = color_text_main | color_modify: 'alpha', 0.62
+      {%- comment -%} Footer Colors {% endcomment %}
+      {%- liquid
 
-      assign color_borders_forms_primary = color_text_main | color_modify: 'alpha', 0.3
-      assign color_borders_forms_secondary = color_text_main | color_modify: 'alpha', 0.6
+        assign color_background_footer = settings.color_background_footer
+        assign color_text_footer = settings.color_text_footer
+        assign color_accent_footer = settings.color_accent_footer
+        assign color_borders_footer = color_text_footer | color_modify: 'alpha', 0.15
 
-      assign color_opacity_background_main = color_background_main | color_modify: 'alpha', 0
+      -%}
 
-    -%}
+      {%- comment -%} Main Colors {% endcomment %}
+      {%- liquid
+
+        assign color_background_main = settings.color_background_main
+        assign color_text_main = settings.color_text_main
+        assign color_accent_main = settings.color_accent_main
+
+        assign brightness_accent_main = color_accent_main | color_brightness
+        if brightness_accent_main > 150
+          assign color_foreground_accent_main = '#000'
+        else
+          assign color_foreground_accent_main = '#fff'
+        endif
+
+        assign brightness_text_main = color_text_main | color_brightness
+        if brightness_text_main > 150
+          assign color_foreground_main = '#000'
+        else
+          assign color_foreground_main = '#fff'
+        endif
+
+        assign color_borders_main = color_text_main | color_modify: 'alpha', 0.15
+        assign color_secondary_background_main = color_text_main | color_modify: 'alpha', 0.08
+        assign color_third_background_main = color_text_main | color_modify: 'alpha', 0.04
+        assign color_fourth_background_main = color_text_main | color_modify: 'alpha', 0.02
+        assign color_secondary_text_main = color_text_main | color_modify: 'alpha', 0.62
+
+        assign color_borders_forms_primary = color_text_main | color_modify: 'alpha', 0.3
+        assign color_borders_forms_secondary = color_text_main | color_modify: 'alpha', 0.6
+
+        assign color_opacity_background_main = color_background_main | color_modify: 'alpha', 0
+
+      -%}
 </style>
 
 <style type="text/css">
@@ -178,7 +184,7 @@
 
     /* Font variables */
 
-    --font-stack-headings: "PP Acma Black";
+    --font-stack-headings: "PP Acma";
     --font-weight-headings: 600;
     --font-style-headings: normal;
 
