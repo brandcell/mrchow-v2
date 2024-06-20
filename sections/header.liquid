@@ -105,7 +105,7 @@
 
       </div>
 
-      <button data-js-sidebar-handle class="mobile-menu-button portable-show" aria-expanded="false" aria-controls="site-menu-sidebar">
+      <button data-js-sidebar-handle class="mobile-menu-button hide portable-show" aria-expanded="false" aria-controls="site-menu-sidebar">
         <span class="visually-hidden">{{ 'general.accessibility_labels.open_menu' | t }}</span>
         {%- render 'theme-symbols', icon: 'burger' -%}
       </button>
@@ -116,7 +116,7 @@
         {% else %}
           href="{{ routes.cart_url }}"
         {% endif %} 
-        class="mobile-cart-button portable-show"
+        class="mobile-cart-button hide portable-show"
         title="{{ 'general.accessibility_labels.open_cart' | t }}" tabindex="0"
       >
         <span class="visually-hidden">{{ 'general.accessibility_labels.open_cart' | t }}</span>
@@ -235,7 +235,7 @@
 
   {%- if section.settings.show_search -%}
 
-    <div class="header-container header--container--bottom container--large mobile-search portable-show">
+    <div class="header-container header--container--bottom container--large mobile-search hide portable-show">
       <search-form style="position:relative">
         <div class="button button--outline button--icon button--outline-hover button--no-padding button--no-hover site-search-handle">
           <span class="button__icon" role="img" aria-hidden="true">{%- render 'theme-symbols', icon: 'search' -%}</span>
