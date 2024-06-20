@@ -166,8 +166,7 @@
         "1655121489da0fd0f2-2"
       ],
       "custom_css": [
-        "figure img {object-fit: contain;}",
-        "h2 {font-family: PP Acma; font-weight: 600;}"
+        "figure img {object-fit: contain;}"
       ],
       "settings": {
         "heading": "Mega Bundles",
