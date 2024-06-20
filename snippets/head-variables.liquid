@@ -2,10 +2,12 @@
 {%- assign body_font = settings.body_font -%}
 
 {% comment %} {%- unless headings_font.system? -%} {% endcomment %}
-<link rel="preload" href="{{'PPAcma-Black.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
+{% comment %} <link rel="preload" href="{{'PPAcma-Black.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin> {% endcomment %}
 <link rel="preload" href="{{'PPAcma-Black.otf' | asset_url }}" as="font" type="font/otf" crossorigin>
-<link rel="preload" href="{{'PPAcma-Semibold.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{{'PPAcma-Light.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin="anonymous">
+{% comment %}
+  <link rel="preload" href="{{'PPAcma-Semibold.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{'PPAcma-Light.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin="anonymous">
+{% endcomment %}
 {% comment %} {%- endunless -%} {% endcomment %}
 
 {%- unless body_font.system? -%}
@@ -15,8 +17,8 @@
 <style type="text/css">
   @font-face {
     font-family: "PP Acma";
-    src: url('PPAcma-Black.woff2') format('woff2'),
-      url('PPAcma-Black.otf') format('opentype');
+    /* src: url('PPAcma-Black.woff2') format('woff2'), */
+     src: url('PPAcma-Black.otf') format('opentype');
       /* url("PPAcma-Semibold.woff2") format("woff2"),
 
       url("PPAcma-Light.woff2") format("woff2"); */
