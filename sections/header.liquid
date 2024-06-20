@@ -105,7 +105,7 @@
 
       </div>
 
-      <button data-js-sidebar-handle class="mobile-menu-button hide portable-show" aria-expanded="false" aria-controls="site-menu-sidebar">
+      <button data-js-sidebar-handle class="mobile-menu-button portable-show" aria-expanded="false" aria-controls="site-menu-sidebar">
         <span class="visually-hidden">{{ 'general.accessibility_labels.open_menu' | t }}</span>
         {%- render 'theme-symbols', icon: 'burger' -%}
       </button>
@@ -116,7 +116,7 @@
         {% else %}
           href="{{ routes.cart_url }}"
         {% endif %} 
-        class="mobile-cart-button hide portable-show"
+        class="mobile-cart-button portable-show"
         title="{{ 'general.accessibility_labels.open_cart' | t }}" tabindex="0"
       >
         <span class="visually-hidden">{{ 'general.accessibility_labels.open_cart' | t }}</span>
