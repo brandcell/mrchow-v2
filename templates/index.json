@@ -321,8 +321,7 @@
         "card_XQ7JBU"
       ],
       "custom_css": [
-        "h2 {font-family: PP Acma; font-weight: 600;}",
-        "h3 {font-family: PP Acma; font-weight: 600;}"
+
       ],
       "settings": {
         "heading": "For Occasions",
@@ -660,7 +659,7 @@
         "6d7d92cc-64fe-4f89-9974-bb98f18308a0"
       ],
       "custom_css": [
-        "h2 {font-family: PP Acma; font-weight: 600;}"
+
       ],
       "settings": {
         "title": "Mr Chow's Drink Diary",
