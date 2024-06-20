@@ -7,8 +7,6 @@
 <link rel="preload" href="{{'PPAcma-Light.woff2' | asset_url }}" as="font" type="font/woff2" crossorigin="anonymous">
 {% comment %} {%- endunless -%} {% endcomment %}
 
-{{ 'PPAcma-Black.woff2' | asset_url | stylesheet_tag: preload: true }}
-
 {%- unless body_font.system? -%}
   <link rel="preload" href="{{ body_font | font_url }}" as="font" type="font/woff2" crossorigin>
 {%- endunless -%}
@@ -16,8 +14,10 @@
 <style type="text/css">
   @font-face {
     font-family: "PP Acma";
-    src: url('PPAcma-Black.woff2') format('woff2');
+    src: url('PPAcma-Black.woff2') format('woff2'),
+      url('PPAcma-Black.otf') format('opentype');
       /* url("PPAcma-Semibold.woff2") format("woff2"),
+
       url("PPAcma-Light.woff2") format("woff2"); */
       font-display: fallback;
       -webkit-font-smoothing:antialiased;
