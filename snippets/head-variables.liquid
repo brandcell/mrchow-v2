@@ -18,17 +18,37 @@
 
 <style type="text/css">
   @font-face {
-    font-family: "PPAcma";
-    src: url('PPAcma-Black.woff') format('woff'),
-     url('PPAcma-Black.otf') format('otf'),
-     url('PPAcma-Black.woff2') format('woff2')
-      /* url("PPAcma-Semibold.woff2") format("woff2"),
+    font-family: 'PP Acma Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Acma Thin'), url('PPAcma-Thin.woff') format('woff');
+    }
 
-      url("PPAcma-Light.woff2") format("woff2"); */
-      font-display: fallback;
-      -webkit-font-smoothing:antialiased;
 
-  }
+    @font-face {
+    font-family: 'PP Acma Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Acma Light'), url('PPAcma-Light.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'PP Acma Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Acma Semibold'), url('PPAcma-Semibold.woff') format('woff');
+    }
+
+
+    @font-face {
+    font-family: 'PP Acma Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('PP Acma Black'), url('PPAcma-Black.woff') format('woff');
+    }
+
+
 
 
     {%- comment -%} Fonts   /* echo headings_font | font_face: font_display: 'swap' */{%- endcomment -%}
@@ -149,6 +169,7 @@
 
     -%}
 </style>
+
 <style type="text/css">
   :root {
 
@@ -157,7 +178,7 @@
 
     /* Font variables */
 
-    --font-stack-headings: "PPAcma";
+    --font-stack-headings: "PP Acma Black";
     --font-weight-headings: 600;
     --font-style-headings: normal;
 
