@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "presets": {
     "Light": {
@@ -181,6 +190,7 @@
     "product_card_badge_sale_color": "#ee3535",
     "product_icon_1_image": "",
     "product_icon_1_label": "",
+    "favicon": "shopify:\/\/shop_images\/favicon-32x32.png",
     "cart_action": "no-overlay",
     "cart_free_shipping": true,
     "cart_free_shipping_amount": "450",
@@ -275,12 +285,6 @@
       },
       "7280966411886983154": {
         "type": "shopify:\/\/apps\/monk\/blocks\/app-embed\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "pagefly-page-builder": {
-        "type": "shopify:\/\/apps\/pagefly-page-builder\/blocks\/app-embed\/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
         "settings": {
         }
