@@ -271,20 +271,8 @@
         "settings": {
         }
       },
-      "4113930173634242220": {
-        "type": "shopify:\/\/apps\/referral-program-shopjar\/blocks\/app-shopjar\/bf205236-47cf-42ff-acf9-5de1b0804e4d",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "7280966411886983154": {
-        "type": "shopify:\/\/apps\/monk\/blocks\/app-embed\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
         "disabled": false,
         "settings": {
         }
@@ -292,6 +280,12 @@
       "2187360915322861293": {
         "type": "shopify:\/\/apps\/uploadly-file-upload\/blocks\/app-embed\/d91e9a53-de3d-49df-b7a1-ac8a15b213e5",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "7280966411886983154": {
+        "type": "shopify:\/\/apps\/monk\/blocks\/app-embed\/e949adb6-87ca-4b97-8f31-0e51bf507f2d",
+        "disabled": true,
         "settings": {
         }
       }
