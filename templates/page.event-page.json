@@ -52,7 +52,7 @@
         "hulk_form_builder_form_block_WWXgEz"
       ],
       "custom_css": [
-
+        ".container {margin: auto; max-width: 1440px; background: #ffeed6;}"
       ],
       "settings": {
         "full_width": true,
