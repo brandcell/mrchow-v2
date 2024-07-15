@@ -1,1 +1,46 @@
-<h1>This is event planning page</h1>
+<div class="max-w-[1440px] m-auto  bg-[#FFEED6]">
+  <div>
+    {{ images['event-banner.jpg'] | image_url: width: 1920 | image_tag }}
+  </div>
+
+  <div class="p-10 max-w-prose m-auto">
+    <p>
+      Aiya, you have an event you need alcohol for, but it can be pretty inconvenient to source and carry crates of
+      booze to your venue. How ah?
+    </p>
+
+    <br>
+    <br>
+
+    <p>
+      Good news! Mr. Chow is now offering events/bulk order services. We will personally bring our store’s 100% genuine
+      and affordable liquors of your choice to your location.
+    </p>
+  </div>
+
+  <div class="events text-center p-10">
+    <h1 class="font-bold text-4xl mb-10">Events We Supply</h1>
+
+    <div class="grid grid-cols-4 font-bold text-xl">
+      <div>
+        {{ images['barbeques.png'] | image_url: width: 300 | image_tag }}
+        <h1>Barbeques</h1>
+      </div>
+
+      <div>
+        {{ images['corporate-events.png'] | image_url: width: 300 | image_tag }}
+        <h1>Corporate Events</h1>
+      </div>
+
+      <div>
+        {{ images['wedding.png'] | image_url: width: 300 | image_tag }}
+        <h1>Weddings</h1>
+      </div>
+
+      <div>
+        {{ images['all-the-parties.png'] | image_url: width: 300 | image_tag }}
+        <h1>Parties</h1>
+      </div>
+    </div>
+  </div>
+</div>
