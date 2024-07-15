@@ -51,9 +51,12 @@
       "block_order": [
         "hulk_form_builder_form_block_WWXgEz"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "full_width": false,
-        "remove_margin": false
+        "full_width": true,
+        "remove_margin": true
       }
     }
   },
