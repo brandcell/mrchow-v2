@@ -74,7 +74,7 @@
     {{ 'theme.css' | asset_url | stylesheet_tag }}
 
     {{ 'style.css' | asset_url | stylesheet_tag }}
-
+{%- render 'head-variables', direction: direction -%}
     {% render 'boost-sd-fallback' %}
     {{ content_for_header }}
 
