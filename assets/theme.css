@@ -519,7 +519,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: var(--font-stack-headings);
+ /* font-family: var(--font-stack-headings);*/
+  font-family: 'PP Acma';
   font-weight: var(--font-weight-headings);
   font-style: var(--font-style-headings);
   line-height: var(--base-headings-line);
