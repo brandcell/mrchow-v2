@@ -507,6 +507,9 @@ summary::-webkit-details-marker {
 /*
  *  1.3. Typography
 */
+.section-heading__title{
+  color:Red;
+}
 h1,
 h2,
 h3,
