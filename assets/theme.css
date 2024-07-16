@@ -2595,19 +2595,3 @@ html[dir="ltr"] .svg-placeholder.svg-placeholder--background {
   text-align: center;
   padding: 30px 40px;
 }
-@media(max-width:768px){
-  h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  font-family: 'PP Acma' !important;
-}
-}
