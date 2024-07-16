@@ -194,6 +194,7 @@
           "type": "image",
           "settings": {
             "icon": "alcohol-bottle",
+            "image": "shopify:\/\/shop_images\/chow_choice1.png",
             "title": "Genuine Liquor",
             "caption": "100% Authentic",
             "link": "",
@@ -207,6 +208,7 @@
           "type": "image",
           "settings": {
             "icon": "delivery",
+            "image": "shopify:\/\/shop_images\/chow_choice2.png",
             "title": "Free Delivery",
             "caption": "For orders above RM450",
             "link": "",
@@ -220,6 +222,7 @@
           "type": "image",
           "settings": {
             "icon": "wallet",
+            "image": "shopify:\/\/shop_images\/chow_choice3.png",
             "title": "Value Prices",
             "caption": "Drinking doesn't have to break your wallet",
             "link": "",
