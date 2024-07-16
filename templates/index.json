@@ -195,8 +195,8 @@
           "settings": {
             "icon": "alcohol-bottle",
             "image": "shopify:\/\/shop_images\/chow_choice1.png",
-            "title": "Genuine Liquor",
-            "caption": "100% Authentic",
+            "title": "Pick alcohol",
+            "caption": "From 400 choices",
             "link": "",
             "open_in_new_window": false,
             "color_background_main": "rgba(0,0,0,0)",
@@ -209,8 +209,8 @@
           "settings": {
             "icon": "delivery",
             "image": "shopify:\/\/shop_images\/chow_choice2.png",
-            "title": "Free Delivery",
-            "caption": "For orders above RM450",
+            "title": "Whatsapp Us",
+            "caption": "If you prefer us to handle the ordering",
             "link": "",
             "open_in_new_window": false,
             "color_background_main": "rgba(0,0,0,0)",
@@ -223,8 +223,8 @@
           "settings": {
             "icon": "wallet",
             "image": "shopify:\/\/shop_images\/chow_choice3.png",
-            "title": "Value Prices",
-            "caption": "Drinking doesn't have to break your wallet",
+            "title": "2-5 days",
+            "caption": "For your bottles to arrive",
             "link": "",
             "open_in_new_window": false,
             "color_background_main": "rgba(0,0,0,0)",
