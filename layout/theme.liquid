@@ -424,11 +424,12 @@ h1, h2, h3, h4, h5, h6 {
       document.querySelectorAll('.rte a img').forEach((elm) => {
         elm.parentNode.style.border = 'none';
       });
+      setTimeout ( function (){ $(document.querySelectorAll('iframe')[0].contentDocument.querySelector('body')).append(`<style> .form_title_div h3{
+    font-family: var(--font-stack-headings) !important;
+}</style>`) },5000);
     </script>
     <style>
-      .form_title_div h3{
-    font-family: var(--font-stack-headings) !important;
-}
+      
     </style>
   </body>
 </html>
