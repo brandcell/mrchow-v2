@@ -12,7 +12,7 @@
     "main": {
       "type": "customers-login",
       "custom_css": [
-        "button.button.button--solid.button--regular {color: black !important;}"
+
       ],
       "settings": {
       }
