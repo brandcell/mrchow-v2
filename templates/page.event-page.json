@@ -53,7 +53,7 @@
       ],
       "custom_css": [
         ".container {margin: auto; max-width: 1440px; background: #ffeed6;}",
-        ".form_title_div h3 {font-family: var(--font-stack-headings) !important;}"
+        ".form_title_div h3 {font-family: 'PP Acma', sans-serif !important;}"
       ],
       "settings": {
         "full_width": true,
