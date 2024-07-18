@@ -2595,3 +2595,47 @@ html[dir="ltr"] .svg-placeholder.svg-placeholder--background {
   text-align: center;
   padding: 30px 40px;
 }
+
+
+/* Preload the font */
+@font-face {
+    font-family: 'PP Acma';
+    src: url('{{ 'PPAcma-Semibold.woff2' | asset_url }}') format('woff2'),
+         url('{{ 'PPAcma-Semibold.woff' | asset_url }}') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Acma';
+    src: url('{{ 'PPAcma-Black.woff2' | asset_url }}') format('woff2'),
+         url('{{ 'PPAcma-Black.woff' | asset_url }}') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Acma';
+    src: url('{{ 'PPAcma-Light.woff2' | asset_url }}') format('woff2'),
+         url('{{ 'PPAcma-Light.woff' | asset_url }}') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Apply the font to targeted elements */
+h1, h2, h3, h4, h5, h6, .special-class {
+    font-family: 'PP Acma', sans-serif;
+}
+
+/* Add specific font properties if needed */
+.bold-class {
+    font-weight: 900;
+}
+
+.light-class {
+    font-weight: 300;
+}
+
