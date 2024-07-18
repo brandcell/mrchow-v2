@@ -74,6 +74,41 @@
     {{ 'theme.css' | asset_url | stylesheet_tag }}
 
     {{ 'style.css' | asset_url | stylesheet_tag }}
+    <style>
+      /* Preload the font */
+@font-face {
+  font-family: 'PP Acma';
+  src: url('{{ 'PPAcma-Semibold.woff2' | asset_url }}') format('woff2'),
+       url('{{ 'PPAcma-Semibold.woff' | asset_url }}') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply the font to targeted elements */
+:root {
+  --font-stack-headings: 'PP Acma', sans-serif !important;
+  --font-weight-headings: 600 !important;
+  --font-style-headings: normal !important;
+}
+
+/* Use heading variables for h1 to h6 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-stack-headings) !important;
+  font-weight: var(--font-weight-headings) !important;
+  font-style: var(--font-style-headings) !important;
+}
+
+/* If needed, add specific font properties for other classes */
+.bold-class {
+  font-weight: 900 !important; /* Adjust the font-weight for bold class */
+}
+
+.light-class {
+  font-weight: 300 !important; /* Adjust the font-weight for light class */
+}
+
+    </style>
 {%- render 'head-variables', direction: direction -%}
     {% render 'boost-sd-fallback' %}
     {{ content_for_header }}
