@@ -108,9 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 .light-class {
   font-weight: 300 !important; /* Adjust the font-weight for light class */
 }
-.form_title_div h3{
-    font-family: var(--font-stack-headings) !important;
-}
+
     </style>
 {%- render 'head-variables', direction: direction -%}
     {% render 'boost-sd-fallback' %}
@@ -428,7 +426,9 @@ h1, h2, h3, h4, h5, h6 {
       });
     </script>
     <style>
-      
+      .form_title_div h3{
+    font-family: var(--font-stack-headings) !important;
+}
     </style>
   </body>
 </html>
