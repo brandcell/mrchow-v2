@@ -327,7 +327,6 @@ html[dir=ltr] .product-variants--radio .product-variant__item input {
 }
 .product-form .flex-buttons {
   width: calc(100% + 1rem);
-  color: black;
   margin-inline-start: -0.5rem;
 }
 .product-form .flex-buttons > * {
