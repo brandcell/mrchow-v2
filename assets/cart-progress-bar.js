@@ -7,6 +7,8 @@ let max_threshold_val = 0;
 
 cart_items.parentNode.insertBefore(container, cart_items);
 
+console.log(cart_items.parentNode)
+
 for (let i = 0; i < thresholds.length; i++) {
   let threshold = thresholds[i];
 

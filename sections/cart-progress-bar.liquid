@@ -1,11 +1,30 @@
 {%- if cart.items.size > 0 -%}
   {{ 'cart-progress-bar.css' | asset_url | stylesheet_tag }}
 
+  {% comment %}
+    I initiate a few variables, next threshod
+    cart total where I divide by 100
+
+    a to_reach number where it is the next threshold - cart total
+
+    and a max_threshold_value
+  {% endcomment %}
+
   {%- assign next_threshold_value = 0 -%}
   {%- assign next_threshold_title = '' -%}
   {%- assign cart_total = cart.total_price | divided_by: 100 -%}
   {%- assign to_reach = 0 -%}
   {%- assign max_threshold_value = 0 -%}
+
+  {% comment %}
+    if cart is less than the threshold value, I make three variables
+
+    next threshold value
+
+    next threshold title
+
+    to reach amount
+  {% endcomment %}
 
   {%- for threshold in section.blocks -%}
     {%- if cart_total < threshold.settings.value -%}
@@ -16,18 +35,39 @@
     {%- endif -%}
   {%- endfor -%}
 
+  {% comment %}
+    this is the logic to calculate next threshold and the next to reach value
+
+    for each of the thresholds I will look into the value and compare it to cart, when I find one that is less than the current cart_total I will assign it the next threshold value
+
+    I will also get calculate the value to reach that threshold
+  {% endcomment %}
+
   {%- for threshold in section.blocks -%}
     {%- if max_threshold_value < threshold.settings.value -%}
       {%- assign max_threshold_value = threshold.settings.value -%}
     {%- endif -%}
   {%- endfor -%}
 
+  {% comment %}
+    This is the logic to calculate max threshold so that I can show when all of the thresholds are passed.
+
+    I look at each threshold value until I find one that is smaller than the current threshold
+  {% endcomment %}
+
   {%- assign progress_percent = 100 -%}
   {%- if max_threshold_value != 0 -%}
     {%- assign progress_percent = cart_total | times: 100 | divided_by: max_threshold_value -%}
   {%- endif -%}
 
+  {% comment %}
+    This is the logic to calculate the progress percentage
+    when the max threshold value is more than 0 as in there is a threshold, we will assign the progress to be cart * 100 ? max threshold.
+  {% endcomment %}
+
   <div class="container--large container--vertical-space">
+    {{ cart_total }}
+    {{ progress_percent }}
     <div id="cb-spb" class="upcart-rewards styles_TieredRewards__R03ai UpcartDesignSettings__cartTextColor">
       <div class="upcart-rewards-message">
         {%- if next_threshold_title != '' -%}
@@ -69,7 +109,7 @@
       </div>
       <div class="styles_TieredRewards__tiersContainer__ZMHzn">
         {%- assign previous_percent = 0 -%}
-        {%- assign minus_perc = 2 -%}
+
         {%- for threshold in section.blocks -%}
           {%- assign threshold_value = threshold.settings.value | plus: 0.0 -%}
           {%- assign threshold_percent = 100 -%}
@@ -77,7 +117,7 @@
             {%- assign threshold_percent = threshold_value | times: 100 | divided_by: max_threshold_value -%}
           {%- endif -%}
           {%- assign threshold_percent = threshold_percent | minus: previous_percent -%}
-          {%- assign minus_perc = minus_perc | times: forloop.index | times: 2.5 -%}
+
           <div
             class="cb-sbp-threshold upcart-rewards-tier styles_TieredRewards__tierCircleAndDescription__AhLjz styles_TieredRewards__tierCircleAndDescription--exactlyCenter__8D9zz"
             data-value="{{ threshold.settings.value }}"
